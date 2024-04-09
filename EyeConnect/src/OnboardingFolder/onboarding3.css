@@ -11,8 +11,6 @@ gap: 0px;
 border-radius: 30px 30px 30px 30px;
 opacity: 0px;
 background-color:rgba(123, 97, 255, 1);
-;
-
 
 }
 .doctors-img1{
@@ -28,7 +26,7 @@ background-color:rgba(123, 97, 255, 1);
 
 }
 .txts{
- background-color: white;
+ background-color:white;
 width: 430px;
 height: 419px;
 top: 511px;
@@ -70,8 +68,6 @@ top: 721px;
 margin-left: 180px;
 margin-top: 68px;
 
-
-
 }
 .dot-1 , .dot-2 , .dot-3{
     padding-right: 5px; 
@@ -86,18 +82,18 @@ margin-top: 68px;
     padding-top: 15px;
 }
 #started-btn{
-    border: none;
-    width:379px;
-    height:40px;
-    padding: 10px 0px 0px 0px;
-    gap: 10px;
-    border-radius: 8px 8px 8px 8px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 20px;
-    background-color: #7B61FF;
-    margin-top: 68px;
-    margin-bottom: 95px;
+border: none;
+width:379px;
+height:40px;
+padding: 10px 0px 0px 0px;
+gap: 10px;
+border-radius: 8px 8px 8px 8px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+color: #FFFFFF;
+font-weight: 600;
+font-size: 20px;
+background-color: #7B61FF;
+margin-top: 68px;
+margin-bottom: 95px;
     }
