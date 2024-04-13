@@ -13,7 +13,7 @@ opacity: 0px;
 background-color:rgba(123, 97, 255, 1);
 
 }
-.doc-2{
+.doc-1{
     width: 401px;
     height: 488px;
     top: 25px;
@@ -23,7 +23,7 @@ background-color:rgba(123, 97, 255, 1);
     border:none;
 
 }
-.texts-2{
+.texts-one{
     width: 430px;
     height: 419px;
     top: 513px;
@@ -35,11 +35,11 @@ background-color:rgba(123, 97, 255, 1);
     
 
 }
-.services{
+.services-1{
  width: 382px;
 height: 29px;
 top: 585px;
-margin-left: 83px;
+margin-left: 34px;
 font-family: Inter;
 font-size: 24px;
 font-weight: 700;
@@ -48,11 +48,11 @@ padding-top: 70px;
 line-height: 29.05px
 
 }
-.txt-sch{
-width: 381px;
+.txt-find{
+width: 282px;
 height: 19px;
 top: 641px;
-margin-left: 22px;
+margin-left: 64px;
 gap: 0px;
 opacity: 0px;
 font-family: Inter;
@@ -63,11 +63,11 @@ text-align: left;
 
 
 }
-.txt-3{
+.txt-book{
 width: 278px;
 height: 15px;
 top: 675px;
-margin-left: 78px;
+margin-left: 56px;
 font-family: Inter;
 font-size: 12px;
 font-weight: 400;
@@ -76,11 +76,11 @@ text-align: left;
 border: none;
 
 }
-.three-dots2{
+.three-dots3{
 width: 86px;
 height: 18px;
-top: 721px;
-margin-left: 180px;
+top: 723px;
+margin-left: 165px;
 margin-top: 68px;
 border:none;
 margin-top: 30px;
@@ -89,16 +89,16 @@ margin-top: 30px;
 .dot-1 , .dot-2 , .dot-3{
     padding-right: 10px; 
 }
-.ctn{
+.ctn1{
     border: none;
     height: 74px;
     width: 382px;
     top: 248px;
-    margin-left: 24px;
+    margin-left: 18px;
     color: #00000033;
     padding-top: 15px;
 }
-#btn-ctn{
+#btn-ctn1{
     width: Fixed (281px)px;
     height: Hug (56px)px;
     top: 788px;
@@ -118,10 +118,10 @@ margin-top: 30px;
     border:1px solid rgba(234, 150, 32, 1);
     margin-top: 35px;
     }
-    .skip-lnk{
+    .skip-lnk1{
 width: 52px;
 height: 29px;
-margin-top: 40px;
+margin-top:40px;
 margin-left: 329px;
 font-family: Inter;
 font-size: 24px;
@@ -131,9 +131,3 @@ text-align: left;
 
 
   }
-
-
-
-   
-
-

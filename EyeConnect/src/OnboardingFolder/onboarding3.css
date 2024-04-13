@@ -82,18 +82,23 @@ margin-top: 68px;
     padding-top: 15px;
 }
 #started-btn{
-border: none;
-width:379px;
-height:40px;
-padding: 10px 0px 0px 0px;
-gap: 10px;
-border-radius: 8px 8px 8px 8px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-color: #FFFFFF;
-font-weight: 600;
-font-size: 20px;
-background-color: #7B61FF;
-margin-top: 68px;
-margin-bottom: 95px;
+        width: Fixed (281px)px;
+        height: Hug (56px)px;
+        top: 788px;
+        margin-left: 74px;
+        padding: 16px 80px 16px 80px;
+        gap: 16px;
+        border-radius: 20px 20px 20px 20px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        color: white;
+        background-color: rgba(123, 97, 255, 1);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24.2px;
+        text-align: left;
+        border:1px solid rgba(234, 150, 32, 1);
+        margin-top: 35px;
+        }
     }
