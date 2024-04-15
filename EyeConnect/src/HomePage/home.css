@@ -1,0 +1,185 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+  width: 100%;
+  max-width: 430px;
+  height: 100%;
+  margin: auto;
+  border-radius: 30px;
+  opacity: 1;
+  padding: 20px; /* Adjust padding as needed */
+  box-sizing: border-box;
+  background-color: rgba(190, 184, 220, 1);
+}
+
+  
+  /* Section 1: Profile Picture and Greeting */
+  .profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black; /* You can change this color */
+  }
+  
+  .greeting {
+    font-weight: normal;
+    margin-left: 10px; /* Adjust as needed */
+  }
+  
+  .notification-icon {
+    width: 30px;
+    height: 30px;
+    /* Insert your icon or use a background-color */
+  }
+  
+  /* Section 2: Search Bar */
+  .search-section {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .search-input {
+    width: calc(100% - 40px); /* Adjusted for icon width */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+  }
+  
+  .search-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    /* Insert your search icon or use a background-color */
+  }
+  
+  /* Section 3: Upcoming Appointment */
+  .appointment-section {
+    margin-top: 20px;
+  }
+  
+  .appointment-container {
+    background-color: rgba(123, 97, 255, 1);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .doctor-profile-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black; /* You can change this color */
+  }
+  
+  .appointment-details {
+    margin-left: 20px;
+  }
+  
+  .appointment-details .doctor-name {
+    font-weight: bold;
+  }
+  
+  .appointment-details .video-call-icon {
+    width: 30px;
+    height: 30px;
+    /* Insert your icon or use a background-color */
+  }
+  
+  /* Section 4: Buttons */
+  .button-section {
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .button-section button {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(123, 97, 255, 1);
+    color: #fff;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  
+  
+  /* Section 5: Nearby Doctors */
+
+  .nearby-doctors-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .nearby-doctors-section {
+    margin-top: 20px;
+  }
+  
+  .view-all {
+    color: rgba(123, 97, 255, 1);
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .doctor-list {
+    margin-top: 10px;
+  }
+  
+  .doctor-item {
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+  }
+  
+  .doctor-item .doctor-profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: bl; /* You can change this color */
+  }
+  
+  .doctor-item .doctor-details {
+    margin-left: 15px;
+  }
+  
+  .doctor-item .distance {
+    margin-left: auto;
+  }
+  
+  .doctor-item button.book-appointment {
+    background-color: rgba(123, 97, 255, 1);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Add styling for other elements as needed */
+  
