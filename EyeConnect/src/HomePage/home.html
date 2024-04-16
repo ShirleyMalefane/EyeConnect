@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mobile App Home Page</title>
   <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 <body>
   <div class="container">
@@ -12,7 +14,7 @@
     <div class="profile-section">
       <div class="profile-picture"></div>
       <div class="greeting"> <p>Good morning,</p> <span class="name">[Your Name]</span></div>
-      <div class="notification-icon"></div>
+      <div class="notification-icon"><i class="far fa-bell"></i></div>
     </div>
 
     <!-- Section 2: Search Bar -->
@@ -23,15 +25,18 @@
 
     <!-- Section 3: Upcoming Appointment -->
     <div class="appointment-section">
-      <div class="appointment-container">
-        <div class="doctor-profile-picture"></div>
-        <div class="appointment-details">
-          <div class="doctor-name">Dr. John Doe</div>
-          <div class="profession">Cardiologist</div>
-          <div class="appointment-time">Wednesday, April 15th, 2024 at 10:00 AM</div>
-          <div class="video-call-icon"></div>
+        <h2 class="section-heading">Upcoming Appointment</h2>
+        <div class="appointment-container">
+            <div class="appointment-profile-picture"></div>
+            <div class="appointment-details">
+                <div class="doctor-info">
+                    <div class="doctor-name">Dr. John Doe</div>
+                    <div class="profession">Cardiologist</div>
+                </div>
+                <div class="video-call-icon"><i class="fas fa-video"></i></div>
+                <div class="appointment-time">Wednesday, April 15th, 2024 at 10:00 AM</div>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- Section 4: Buttons -->
@@ -41,8 +46,6 @@
       <button class="btn-canada">Doctors in Canada</button>
     </div>
 
-    <!-- Section 5: Nearby Doctors -->
-    <div class="nearby-doctors-section">
         <div class="nearby-doctors-header">
           <span>Nearby Doctors</span>
           <span class="view-all">View All</span>
@@ -50,60 +53,64 @@
         <div class="doctor-list">
         <!-- Doctor 1 -->
         <div class="doctor-item">
-          <div class="doctor-profile-picture"></div>
-          <div class="doctor-details">
-            <div class="doctor-name">Dr. Jane Smith</div>
-            <div class="profession">Pediatrician</div>
-            <div class="location">New York, USA</div>
-            <div class="reviews">5 Reviews</div>
-          </div>
-          <div class="distance">1.2 km</div>
-          <div class="like-icon"></div>
-          <button class="book-appointment">Book Appointment</button>
+            <div class="doctor-profile-picture"></div>
+            <div class="doctor-details">
+                <div class="doctor-info">
+                    <div class="doctor-name">Dr. Jane Smith</div>
+                    <div class="profession">Pediatrician</div>
+                </div>
+                <div class="distance">1.2 km</div> <!-- Display distance -->
+            </div>
+            <button class="book-appointment">Book Appointment</button>
         </div>
         <!-- Doctor 2 -->
         <div class="doctor-item">
             <div class="doctor-profile-picture"></div>
             <div class="doctor-details">
-            <div class="doctor-name">Dr. John Doe</div>
-            <div class="profession">Cardiologist</div>
-            <div class="location">Los Angeles, USA</div>
-            <div class="reviews">10 Reviews</div>
+                <div class="doctor-info">
+                    <div class="doctor-name">Dr. John Doe</div>
+                    <div class="profession">Cardiologist</div>
+                </div>
+                <div class="distance">2.5 km</div> <!-- Display distance -->
             </div>
-            <div class="distance">2.5 km</div>
-            <div class="like-icon"></div>
             <button class="book-appointment">Book Appointment</button>
         </div>
-        
         <!-- Doctor 3 -->
         <div class="doctor-item">
             <div class="doctor-profile-picture"></div>
             <div class="doctor-details">
-            <div class="doctor-name">Dr. Emily Johnson</div>
-            <div class="profession">Dermatologist</div>
-            <div class="location">Chicago, USA</div>
-            <div class="reviews">8 Reviews</div>
+                <div class="doctor-info">
+                    <div class="doctor-name">Dr. Emily Johnson</div>
+                    <div class="profession">Dermatologist</div>
+                </div>
+                <div class="distance">3.7 km</div> <!-- Display distance -->
             </div>
-            <div class="distance">3.7 km</div>
-            <div class="like-icon"></div>
             <button class="book-appointment">Book Appointment</button>
         </div>
-        
         <!-- Doctor 4 -->
         <div class="doctor-item">
             <div class="doctor-profile-picture"></div>
             <div class="doctor-details">
-            <div class="doctor-name">Dr. Michael Smith</div>
-            <div class="profession">Orthopedic Surgeon</div>
-            <div class="location">Houston, USA</div>
-            <div class="reviews">12 Reviews</div>
+                <div class="doctor-info">
+                    <div class="doctor-name">Dr. Michael Smith</div>
+                    <div class="profession">Orthopedic Surgeon</div>
+                </div>
+                <div class="distance">5.1 km</div> <!-- Display distance -->
             </div>
-            <div class="distance">5.1 km</div>
-            <div class="like-icon"></div>
             <button class="book-appointment">Book Appointment</button>
         </div>
-        <!-- Repeat Doctor List for other doctors -->
-      </div>
+        <!-- Doctor 5 -->
+        <div class="doctor-item">
+            <div class="doctor-profile-picture"></div>
+            <div class="doctor-details">
+                <div class="doctor-info">
+                    <div class="doctor-name">Dr. Sarah Johnson</div>
+                    <div class="profession">Neurologist</div>
+                </div>
+                <div class="distance">7.3 km</div> <!-- Display distance -->
+            </div>
+            <button class="book-appointment">Book Appointment</button>
+        </div>
     </div>
   </div>
 </body>

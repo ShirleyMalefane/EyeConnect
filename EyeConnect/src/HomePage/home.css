@@ -45,6 +45,7 @@
   .notification-icon {
     width: 30px;
     height: 30px;
+    margin-left: 200px;
     /* Insert your icon or use a background-color */
   }
   
@@ -73,44 +74,68 @@
   }
   
   /* Section 3: Upcoming Appointment */
-  .appointment-section {
-    margin-top: 20px;
-  }
-  
   .appointment-container {
     background-color: rgba(123, 97, 255, 1);
     color: #fff;
-    padding: 20px;
+    padding: 60px;
+    margin-top: 20px;
     border-radius: 10px;
     display: flex;
     align-items: center;
-  }
-  
-  .doctor-profile-picture {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: black; /* You can change this color */
-  }
-  
-  .appointment-details {
-    margin-left: 20px;
-  }
-  
-  .appointment-details .doctor-name {
-    font-weight: bold;
-  }
-  
-  .appointment-details .video-call-icon {
-    width: 30px;
-    height: 30px;
-    /* Insert your icon or use a background-color */
-  }
+    position: relative; /* Ensure absolute positioning works relative to this container */
+}
+
+.section-heading{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.appointment-profile-picture {
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-right: 10px; /* Push the profile picture more to the left */
+    margin-left: -30px;
+    border-radius: 10px; /* Rounded edges */
+    background-color: #fff; /* You can change this color */
+}
+
+.appointment-details {
+    flex-grow: 1; /* Take remaining space */
+    margin-top: -50px;
+}
+
+.doctor-info {
+    margin-bottom: 10px; /* Space between name and profession */
+}
+
+.doctor-name {
+    margin-bottom: 15px; /* Add some space between the doctor's name and profession */
+}
+
+.video-call-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.appointment-time {
+    position: absolute;
+    bottom: 10px;
+    left: 20px; /* Adjust the left position */
+    width: calc(100% - 40px);
+    background-color: rgb(222, 220, 234, 0.3);
+
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
   
   /* Section 4: Buttons */
   .button-section {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
+    margin-bottom: 20px;
   }
   
   .button-section button {
@@ -124,62 +149,66 @@
     margin-right: 10px;
   }
   
-  
-  
   /* Section 5: Nearby Doctors */
+.nearby-doctors-section {
+    margin-top: 20px;
+}
 
-  .nearby-doctors-header {
+.nearby-doctors-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-  }
-  
-  .nearby-doctors-section {
-    margin-top: 20px;
-  }
-  
-  .view-all {
+}
+
+.view-all {
     color: rgba(123, 97, 255, 1);
-    margin-top: 10px;
     cursor: pointer;
-  }
-  
-  .doctor-list {
+}
+
+.doctor-list {
     margin-top: 10px;
-  }
-  
-  .doctor-item {
+}
+
+.doctor-item {
     background-color: #fff;
     color: #000;
     padding: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     border-radius: 10px;
-  }
-  
-  .doctor-item .doctor-profile-picture {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: bl; /* You can change this color */
-  }
-  
-  .doctor-item .doctor-details {
-    margin-left: 15px;
-  }
-  
-  .doctor-item .distance {
-    margin-left: auto;
-  }
-  
-  .doctor-item button.book-appointment {
+    box-shadow: 0 4px 8px rgba(190, 184, 220, 1); /* Add shadow with the same color as the page container */
+}
+
+.doctor-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items horizontally */
+}
+
+.doctor-profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    background-color: #ccc; /* You can change this color */
+    margin-right: 20px; /* Add space between profile picture and details */
+}
+
+.doctor-info {
+    flex-grow: 1; /* Take remaining space */
+}
+
+.distance {
+    font-size: 16px;
+    color: rgba(123, 97, 255, 1);
+}
+
+.book-appointment {
     background-color: rgba(123, 97, 255, 1);
     color: #fff;
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
     cursor: pointer;
-  }
-  
-  /* Add styling for other elements as needed */
+}
+
   
