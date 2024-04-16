@@ -1,0 +1,878 @@
+body{
+    background-color: black;   
+   }
+   .container-ap2{
+   width: 430px;
+   height: 1400px;
+   top: 38px;
+   left: 1310px;
+   gap: 0px;
+   border-radius: 30px 30px 30px 30px;
+   opacity: 0px;
+   background: rgba(190, 184, 220, 1);
+   }
+   .app-logo2{
+       width: 114px;
+       height: 49px;
+       margin-top:33px;
+       left: 16px;
+       margin-left: 16px;
+       gap: 0px;
+       border-radius: 20px 0px 0px 0px;
+       opacity: 0px;
+       padding-top: 30px;
+        
+   }
+   .apt-bar2{
+   width: 370px;
+   height: 26.81px;
+   top: 96px;
+   left: 16px;
+   border: none;
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 24.2px;
+   text-align: left;
+   color: rgba(0, 0, 0, 1);
+   }
+   .icon-search2{
+   float: inline-end;
+   width: 24px;
+   height: 25.04px;
+   top: 1.77px;
+   left: 342px;
+   padding: 3.93px 3.81px 4.01px 3.81px;
+   }
+   .frame{
+   width: 398px;
+   height: 62px;
+   top: 155px;
+   left: 16px;
+   gap: 0px;
+   border: 1px 0px 0px 0px;
+   background: rgba(217, 217, 217, 1);
+   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
+   }
+   .words2{
+   display: flex;
+   flex-direction: row;
+   width:385px;
+   height:44px;
+   top: 164px;
+   left: 21px;
+   gap: 11px;
+   border: none;
+   }
+   .Upcoming2{
+   width: 99px;;
+    height:24px ;
+    padding: 10px 10px 0px 0px;
+    gap: 10px;
+   border-radius: 10px 10px 10px 10px;
+   opacity: 0px;
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 24.2px;
+   text-align: left;
+   color: rgba(255, 255, 255, 1);
+   margin-left: 2px;
+   background: rgba(190, 184, 220, 1);
+   
+   }
+   .Completed2{
+   width: 99px;;
+   height:24px ;padding: 10px 10px 0px 0px;
+   gap: 10px;
+   border-radius: 10px 10px 10px 10px;
+   opacity: 0px;
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 24.2px;
+   text-align: left;
+   color: rgba(0, 0, 0, 1);
+   margin-left: 21px;
+   background: rgba(123, 97, 255, 1);
+   
+   }
+   .Cancelled2{
+   color: rgba(0, 0, 0, 1);
+   width: 99px;;
+   height:24px ;padding: 10px 10px 0px 0px;
+   gap: 10px;
+   border-radius: 10px 10px 10px 10px;
+   opacity: 0px;
+   background: rgba(190, 184, 220, 1);
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 24.2px;
+   text-align: left;
+   margin-left: 21px;
+   }
+   .Appointment-2{
+   width: 398px;
+   height: 298px;
+   margin-top: 45px;
+   margin-left: 16px;
+   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
+   background: rgba(255, 255, 255, 1);
+   border: none;
+   }
+   .vid-icon2{
+   width: 24px;
+   height: 24px;
+   top: 278px;
+   margin-left: 360px;
+   padding: 6px 3px 6px 3px;
+   
+   }
+   .docs-img4{
+   width: 131px;
+   height: 112px;
+   margin-top: 15px;
+   margin-left: 10px;
+   float: left;
+   margin-right: 10px;
+   border: none;
+   margin: 0px 0px 0px 0px;
+   padding-left: 16px;
+   
+   }
+   .name4{
+   width: 150px;
+   height: 18px;
+   margin-left: 145px;   
+   font-family: Inter;
+   font-size: 15px;
+   font-weight: 600;
+   line-height: 18.15px;
+   color: rgba(0, 0, 0, 1);
+   margin-bottom:1px;
+   border:none;
+   padding-left: 15px;
+   }
+   .proffesion4{
+    font-family: Inter;
+   font-size: 12px;
+   font-weight: 700;
+   line-height: 14.52px;
+   text-align: left;
+   color: rgba(0, 0, 0, 1);
+   margin: 1px 2px;
+   border: none;
+   width: 99px;
+   height: 15px;
+   top: 327px;
+   margin-left:145px;
+   padding-left: 15px;
+   
+   }
+   .edu-level4{
+   font-family: Inter;
+   font-size: 12px;
+   font-weight: 500;
+   line-height: 14.52px;
+   text-align: left;
+   color: rgba(0, 0, 0, 1);
+   margin: 1px 2px;
+   border:none;
+   width: 47px;
+   height: 15px;
+   top: 349px;
+   margin-left: 145px;
+   padding-left: 15px;
+   
+   }
+   .location4{
+       font-family: Inter;
+       font-size: 12px;
+       font-weight: 400;
+       line-height: 14.52px;
+       color: rgba(0, 0, 0, 1);
+       margin:1px 1px; 
+       border: none;
+       width: 63px;
+       height: 15px;
+       top: 368px;
+       margin-left: 145px;
+       padding-left: 15px;
+     
+   }
+   .reviews4{
+   font-family: Inter;
+   font-size: 12px;
+   font-weight: 700;
+   line-height: 14.52px;
+   text-align: left;
+   color: rgba(0, 0, 0, 1);
+   margin: 1px 2px;
+   border:none;
+   top: 327px;
+   margin-left:328px;
+   width: 69px;
+   height: 15px;
+   top: 327px;
+   }
+   .calendar4{
+   border: 1px solid white;
+    width:140px;
+   height:25px;
+   top: 396px;
+   left: 259px;
+   gap: 7px;
+   margin-left:254px;
+   }
+   .calender-img4{
+   width: 20px;
+   height: 20px;
+   margin-top: 2px;
+   margin-left: 2px;
+   float: left;
+   margin-right: 10px;
+   margin-bottom: 5px;
+   border: none;
+   }
+   .date4{
+       font-family: Inter;
+       font-size: 12px;
+       font-weight: 400;
+       line-height: 14.52px;
+       color:rgba(0, 0, 0, 1);
+   }
+   .clock4{
+       border:1px solid white;
+       width:90px;
+      height:25px;
+      top: 396px;
+      left: 259px;
+      gap: 7px;
+      
+      
+   }
+   .clock-icon4{
+   width: 20px;
+   height: 20px;
+   margin-top: 2px;
+   margin-left: 2px;
+   float: left;
+   margin-right: 10px;
+   margin-bottom: 5px;
+   padding-left: 18px;
+    
+   }
+   .time-4{
+       font-family: Inter;
+       font-size: 12px;
+       font-weight: 400;
+       line-height: 14.52px;
+       color:rgba(0, 0, 0, 1);
+   }
+   .Reschedule-btn4{
+   width: Fixed(226px)px;
+   height: Hug(40px)px;
+   top: 430px;
+   padding: 8px 80px 8px 100px;
+   gap: 16px;
+   border-radius: 20px 20px 20px 20px;
+   background-color: rgba(123, 97, 255, 1);
+   color: rgba(255, 255, 255, 1);
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 24.2px;
+   margin-left: 80px;
+   border:1px solid rgba(234, 150, 32, 1);
+   margin-bottom: 5px;
+   border: 2px solid rgba(123, 97, 255, 1) ;
+   }
+   .cancel-btn4{
+   width: Fixed (226px)px;
+   height: Hug (40px)px;
+   top: 475px;
+   margin-left: 80px;
+   padding: 10px 60px 8px 60px;
+   gap: 16px;
+   border-radius: 20px 20px 20px 20px;
+   border: 2px 0px 0px 0px;
+   opacity: 0px;
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 24.2px;
+   border:1px solid(123, 97, 255, 1);
+   color: rgba(123, 97, 255, 1);
+   margin-bottom: 50px;
+   background-color: white;
+   }
+   /* styling for second appointment*/
+   .Appointment-5{
+       width: 398px;
+       height: 298px;
+       margin-top: 45px;
+       margin-left: 16px;
+       box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
+       background: rgba(255, 255, 255, 1);
+       border: none;
+       }
+       .vid-icon5{
+       width: 24px;
+       height: 24px;
+       top: 278px;
+       margin-left: 360px;
+       padding: 6px 3px 6px 3px;
+       
+       }
+       .docs-img1-5{
+       width: 131px;
+       height: 112px;
+       margin-top: 15px;
+       margin-left: 10px;
+       float: left;
+       margin-right: 10px;
+       border: none;
+       margin: 0px 0px 0px 0px;
+       padding-left: 16px;
+       
+       }
+       .name5{
+       width: 93px;
+       height: 18px;
+       margin-left: 145px;   
+       font-family: Inter;
+       font-size: 15px;
+       font-weight: 600;
+       line-height: 18.15px;
+       color: rgba(0, 0, 0, 1);
+       margin-bottom:1px;
+       border:none;
+       padding-left: 15px;
+       }
+       .proffesion-5{
+        font-family: Inter;
+       font-size: 12px;
+       font-weight: 700;
+       line-height: 14.52px;
+       text-align: left;
+       color: rgba(0, 0, 0, 1);
+       margin: 1px 2px;
+       border: none;
+       width: 99px;
+       height: 15px;
+       top: 327px;
+       margin-left:145px;
+       padding-left: 15px;
+       
+       }
+       .edu-level-5{
+       font-family: Inter;
+       font-size: 12px;
+       font-weight: 500;
+       line-height: 14.52px;
+       text-align: left;
+       color: rgba(0, 0, 0, 1);
+       margin: 1px 2px;
+       border:none;
+       width: 47px;
+       height: 15px;
+       top: 349px;
+       margin-left: 145px;
+       padding-left: 15px;
+       
+       }
+       .location-5{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           color: rgba(0, 0, 0, 1);
+           margin:1px 1px; 
+           border: none;
+           width: 63px;
+           height: 15px;
+           top: 368px;
+           margin-left: 145px;
+           padding-left: 15px;
+         
+       }
+       .reviews-5{
+       font-family: Inter;
+       font-size: 12px;
+       font-weight: 700;
+       line-height: 14.52px;
+       text-align: left;
+       color: rgba(0, 0, 0, 1);
+       margin: 1px 2px;
+       border:none;
+       top: 327px;
+       margin-left:328px;
+       width: 69px;
+       height: 15px;
+       top: 327px;
+       }
+       .calendar-5{
+       border: 1px solid white;
+        width:140px;
+       height:25px;
+       top: 396px;
+       left: 259px;
+       gap: 7px;
+       margin-left:254px;
+       }
+       .calender-img-5{
+       width: 20px;
+       height: 20px;
+       margin-top: 2px;
+       margin-left: 2px;
+       float: left;
+       margin-right: 10px;
+       margin-bottom: 5px;
+       border: none;
+       }
+       .date-5{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           color:rgba(0, 0, 0, 1);
+       }
+       .clock-5{
+           border:1px solid white;
+           width:90px;
+          height:25px;
+          top: 396px;
+          left: 259px;
+          gap: 7px;
+          
+          
+       }
+       .clock-icon-5{
+       width: 20px;
+       height: 20px;
+       margin-top: 2px;
+       margin-left: 2px;
+       float: left;
+       margin-right: 10px;
+       margin-bottom: 5px;
+       padding-left: 18px;
+        
+       }
+       .time5{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           color:rgba(0, 0, 0, 1);
+       }
+       .Reschedule-btn-5{
+       width: Fixed(226px)px;
+       height: Hug(40px)px;
+       top: 430px;
+       padding: 8px 80px 8px 100px;
+       gap: 16px;
+       border-radius: 20px 20px 20px 20px;
+       background-color: rgba(123, 97, 255, 1);
+       color: rgba(255, 255, 255, 1);
+       font-family: Inter;
+       font-size: 20px;
+       font-weight: 600;
+       line-height: 24.2px;
+       margin-left: 80px;
+       border:1px solid rgba(234, 150, 32, 1);
+       margin-bottom: 5px;
+       border: 2px solid rgba(123, 97, 255, 1) ;
+       }
+       .cancel-btn-5{
+       width: Fixed (226px)px;
+       height: Hug (40px)px;
+       top: 475px;
+       margin-left: 80px;
+       padding: 10px 60px 8px 60px;
+       gap: 16px;
+       border-radius: 20px 20px 20px 20px;
+       border: 2px 0px 0px 0px;
+       opacity: 0px;
+       font-family: Inter;
+       font-size: 20px;
+       font-weight: 600;
+       line-height: 24.2px;
+       border:1px solid(123, 97, 255, 1);
+       color: rgba(123, 97, 255, 1);
+       margin-bottom: 50px;
+       background-color: white;
+       }
+       /* styling for third appointment*/
+       .Appointment-6{
+           width: 398px;
+           height: 298px;
+           margin-top: 45px;
+           margin-left: 16px;
+           box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
+           background: rgba(255, 255, 255, 1);
+           border: none;
+           }
+           .phone6{
+           width: 24px;
+           height: 24px;
+           top: 278px;
+           margin-left: 360px;
+           padding: 6px 3px 6px 3px;
+           
+           }
+           .docs-img1-6{
+           width: 131px;
+           height: 112px;
+           margin-top: 15px;
+           margin-left: 10px;
+           float: left;
+           margin-right: 10px;
+           border: none;
+           margin: 0px 0px 0px 0px;
+           padding-left: 16px;
+           
+           }
+           .name-6{
+           width: 93px;
+           height: 18px;
+           margin-left: 145px;   
+           font-family: Inter;
+           font-size: 15px;
+           font-weight: 600;
+           line-height: 18.15px;
+           color: rgba(0, 0, 0, 1);
+           margin-bottom:1px;
+           border:none;
+           padding-left: 15px;
+           }
+           .proffesion-6{
+            font-family: Inter;
+           font-size: 12px;
+           font-weight: 700;
+           line-height: 14.52px;
+           text-align: left;
+           color: rgba(0, 0, 0, 1);
+           margin: 1px 2px;
+           border: none;
+           width: 99px;
+           height: 15px;
+           top: 327px;
+           margin-left:145px;
+           padding-left: 15px;
+           
+           }
+           .edu-level-6{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 500;
+           line-height: 14.52px;
+           text-align: left;
+           color: rgba(0, 0, 0, 1);
+           margin: 1px 2px;
+           border:none;
+           width: 47px;
+           height: 15px;
+           top: 349px;
+           margin-left: 145px;
+           padding-left: 15px;
+           
+           }
+           .location-6{
+               font-family: Inter;
+               font-size: 12px;
+               font-weight: 400;
+               line-height: 14.52px;
+               color: rgba(0, 0, 0, 1);
+               margin:1px 1px; 
+               border: none;
+               width: 63px;
+               height: 15px;
+               top: 368px;
+               margin-left: 145px;
+               padding-left: 15px;
+             
+           }
+           .reviews-6{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 700;
+           line-height: 14.52px;
+           text-align: left;
+           color: rgba(0, 0, 0, 1);
+           margin: 1px 2px;
+           border:none;
+           top: 327px;
+           margin-left:328px;
+           width: 69px;
+           height: 15px;
+           top: 327px;
+           }
+           .calendar-6{
+           border: 1px solid white;
+            width:140px;
+           height:25px;
+           top: 396px;
+           left: 259px;
+           gap: 7px;
+           margin-left:254px;
+           }
+           .calender-img-6{
+           width: 20px;
+           height: 20px;
+           margin-top: 2px;
+           margin-left: 2px;
+           float: left;
+           margin-right: 10px;
+           margin-bottom: 5px;
+           border: none;
+           }
+           .date-6{
+               font-family: Inter;
+               font-size: 12px;
+               font-weight: 400;
+               line-height: 14.52px;
+               color:rgba(0, 0, 0, 1);
+           }
+           .clock-6{
+               border:1px solid white;
+               width:90px;
+              height:25px;
+              top: 396px;
+              left: 259px;
+              gap: 7px;
+              
+              
+           }
+           .clock-icon-6{
+           width: 20px;
+           height: 20px;
+           margin-top: 2px;
+           margin-left: 2px;
+           float: left;
+           margin-right: 10px;
+           margin-bottom: 5px;
+           padding-left: 18px;
+            
+           }
+           .time-6{
+               font-family: Inter;
+               font-size: 12px;
+               font-weight: 400;
+               line-height: 14.52px;
+               color:rgba(0, 0, 0, 1);
+           }
+           .Reschedule-btn6{
+           width: Fixed(226px)px;
+           height: Hug(40px)px;
+           top: 430px;
+           padding: 8px 80px 8px 100px;
+           gap: 16px;
+           border-radius: 20px 20px 20px 20px;
+           background-color: rgba(123, 97, 255, 1);
+           color: rgba(255, 255, 255, 1);
+           font-family: Inter;
+           font-size: 20px;
+           font-weight: 600;
+           line-height: 24.2px;
+           margin-left: 80px;
+           border:1px solid rgba(234, 150, 32, 1);
+           margin-bottom: 5px;
+           border: 2px solid rgba(123, 97, 255, 1) ;
+           }
+           .cancel-btn6{
+           width: Fixed (226px)px;
+           height: Hug (40px)px;
+           top: 475px;
+           margin-left: 80px;
+           padding: 10px 60px 8px 60px;
+           gap: 16px;
+           border-radius: 20px 20px 20px 20px;
+           border: 2px 0px 0px 0px;
+           opacity: 0px;
+           font-family: Inter;
+           font-size: 20px;
+           font-weight: 600;
+           line-height: 24.2px;
+           border:1px solid(123, 97, 255, 1);
+           color: rgba(123, 97, 255, 1);
+           margin-bottom: 50px;
+           background-color: white;
+           }
+           /* styling for bar of icons*/
+   .settings-bar{
+    width: Fixed 430px;
+   height: 80px;
+   top: 1180px;
+   margin-right: 8px;
+   padding: 5px 5px 5px 5px;
+   gap: 25px;
+   border-radius: 10px 10px 10px 10px;
+   opacity: 0px;
+   background-color: rgba(190, 184, 220, 1);
+   padding-top: 50px;
+   
+    }
+    /* styling for profile-icon*/
+    .profile{
+               width: 45px;
+               height: 50px;
+               float: left;
+               border: none;
+               padding: 10px 10px 10px 10px;
+               border: solid rgba(190, 184, 220, 1);
+               margin-right: 3px;
+               font-family: Inter;
+            
+    }
+    
+    .prof-con{
+       width: 24px;
+       height: 24px;
+       top: 11px;
+       left: 16px;
+       padding: 4px 4px 4px 4px;
+       
+        }
+        .drs-prof{
+       font-family: Inter;
+       font-size: 12px;
+       font-weight: 400;
+       line-height: 14.52px;
+       text-align: left;
+       width: 45px;
+       height: 15px;
+       top: 46px;
+       left: 10px;
+       color: rgba(0, 0, 0, 1);
+        }
+        /* styling for appointment-icon */
+        .appoint{
+           width: 45px;
+           height: 50px;
+           float: left;
+           border: none;
+           padding: 10px 10px 10px 10px;
+           border:solid rgba(190, 184, 220, 1);
+           margin-right: 5px;
+            
+   }
+   
+   .appt-con{
+   width: 24px;
+   height: 24px;
+   top: 11px;
+   left: 16px;
+   padding: 4px 4px 4px 4px;
+   
+    }
+    .aptt-prof{
+   font-family: Inter;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 14.52px;
+   text-align: left;
+   width: 45px;
+   height: 15px;
+   top: 46px;
+   left: 10px;
+   color: rgba(0, 0, 0, 1);
+    }
+     /* styling for prescription */
+     .Prescription{
+       width: 45px;
+       height: 50px;
+       float: left;
+       border: none;
+       padding: 10px 10px 10px 10px;
+       border: solid rgba(190, 184, 220, 1);
+       margin-right: 5px;
+        
+   }
+   
+   .pres-icon{
+   width: 24px;
+   height: 24px;
+   top: 11px;
+   left: 16px;
+   padding: 4px 4px 4px 4px;
+   
+   }
+   .pres-txt{
+   font-family: Inter;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 14.52px;
+   text-align: left;
+   width: 45px;
+   height: 15px;
+   top: 46px;
+   left: 10px;
+   color: rgba(0, 0, 0, 1);
+   }
+   /* styling for community  */
+   .community{
+       width: 45px;
+       height: 50px;
+       float: left;
+       border: none;
+       padding: 10px 10px 10px 10px;
+       border: solid rgba(190, 184, 220, 1);
+       margin-right: 5px;
+        
+   }
+   
+   .com-con{
+   width: 24px;
+   height: 24px;
+   top: 11px;
+   left: 16px;
+   padding: 4px 4px 4px 4px;
+   
+   }
+   .com-txt{
+   font-family: Inter;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 14.52px;
+   text-align: left;
+   width: 45px;
+   height: 15px;
+   top: 46px;
+   left: 10px;
+   color: rgba(0, 0, 0, 1);
+   }
+   /* styling for settings  */
+   .settings{
+       width: 45px;
+       height: 50px;
+       float: left;
+       border: none;
+       padding: 10px 10px 10px 10px;
+       border: solid rgba(190, 184, 220, 1);
+       margin-right: 5px;
+   
+        
+   }
+   
+   .set-con{
+   width: 24px;
+   height: 24px;
+   top: 11px;
+   left: 16px;
+   padding: 4px 4px 4px 4px;
+   
+   }
+   .set-txt{
+   font-family: Inter;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 14.52px;
+   text-align: left;
+   width: 45px;
+   height: 15px;
+   top: 46px;
+   left: 10px;
+   color: rgba(0, 0, 0, 1);
+   }
+   
