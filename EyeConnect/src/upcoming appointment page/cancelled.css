@@ -1,7 +1,7 @@
 body{
     background-color: black;   
    }
-   .container-ap2{
+   .container-ap7{
    width: 430px;
    height: 1400px;
    top: 38px;
@@ -11,7 +11,7 @@ body{
    opacity: 0px;
    background: rgba(190, 184, 220, 1);
    }
-   .app-logo2{
+   .app-logo7{
        width: 114px;
        height: 49px;
        margin-top:33px;
@@ -23,7 +23,7 @@ body{
        padding-top: 30px;
         
    }
-   .apt-bar2{
+   .apt-bar7{
    width: 370px;
    height: 26.81px;
    top: 96px;
@@ -36,7 +36,7 @@ body{
    text-align: left;
    color: rgba(0, 0, 0, 1);
    }
-   .icon-search2{
+   .icon-search7{
    float: inline-end;
    width: 24px;
    height: 25.04px;
@@ -44,7 +44,7 @@ body{
    left: 342px;
    padding: 3.93px 3.81px 4.01px 3.81px;
    }
-   .frame{
+   .frame7{
    width: 398px;
    height: 62px;
    top: 155px;
@@ -54,7 +54,7 @@ body{
    background: rgba(217, 217, 217, 1);
    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
    }
-   .words2{
+   .words7{
    display: flex;
    flex-direction: row;
    width:385px;
@@ -64,7 +64,7 @@ body{
    gap: 11px;
    border: none;
    }
-   .Upcoming2{
+   .Upcoming7{
    width: 99px;;
     height:24px ;
     padding: 10px 10px 0px 0px;
@@ -80,39 +80,41 @@ body{
    margin-left: 2px;
    background: rgba(190, 184, 220, 1);
    
-   }
-   .Completed2{
-   width: 99px;;
-   height:24px ;padding: 10px 10px 0px 0px;
-   gap: 10px;
-   border-radius: 10px 10px 10px 10px;
-   opacity: 0px;
-   font-family: Inter;
-   font-size: 20px;
-   font-weight: 600;
-   line-height: 24.2px;
-   text-align: left;
-   color: rgba(0, 0, 0, 1);
-   margin-left: 21px;
-   background: rgba(123, 97, 255, 1);
    
    }
-   .Cancelled2{
+   .Completed7{
+   width: 99px;
+   height:24px ;padding: 10px 10px 0px 0px;
+   gap: 10px;
+   border-radius: 10px 10px 10px 10px;
+   opacity: 0px;
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 24.2px;
+   text-align: left;
+   color: rgba(0, 0, 0, 1);
+   margin-left: 21px;
+   background: rgba(190, 184, 220, 1);
+  
+   
+   }
+   .Cancelled7{
    color: rgba(0, 0, 0, 1);
    width: 99px;;
    height:24px ;padding: 10px 10px 0px 0px;
    gap: 10px;
    border-radius: 10px 10px 10px 10px;
    opacity: 0px;
-   background: rgba(190, 184, 220, 1);
    font-family: Inter;
    font-size: 20px;
    font-weight: 600;
    line-height: 24.2px;
    text-align: left;
    margin-left: 21px;
+   background: rgba(123, 97, 255, 1);
    }
-   .Appointment-2{
+   .Appointment-7{
    width: 398px;
    height: 298px;
    margin-top: 45px;
@@ -121,7 +123,7 @@ body{
    background: rgba(255, 255, 255, 1);
    border: none;
    }
-   .vid-icon2{
+   .vid-icon7{
    width: 24px;
    height: 24px;
    top: 278px;
@@ -129,7 +131,7 @@ body{
    padding: 6px 3px 6px 3px;
    
    }
-   .docs-img4{
+   .docs-img7{
    width: 131px;
    height: 112px;
    margin-top: 15px;
@@ -141,7 +143,7 @@ body{
    padding-left: 16px;
    
    }
-   .name4{
+   .name-7{
    width: 150px;
    height: 18px;
    margin-left: 145px;   
@@ -154,7 +156,7 @@ body{
    border:none;
    padding-left: 15px;
    }
-   .proffesion4{
+   .proffesion7{
     font-family: Inter;
    font-size: 12px;
    font-weight: 700;
@@ -170,7 +172,7 @@ body{
    padding-left: 15px;
    
    }
-   .edu-level4{
+   .edu-level7{
    font-family: Inter;
    font-size: 12px;
    font-weight: 500;
@@ -186,7 +188,7 @@ body{
    padding-left: 15px;
    
    }
-   .location4{
+   .location7{
        font-family: Inter;
        font-size: 12px;
        font-weight: 400;
@@ -201,7 +203,7 @@ body{
        padding-left: 15px;
      
    }
-   .reviews4{
+   .reviews7{
    font-family: Inter;
    font-size: 12px;
    font-weight: 700;
@@ -216,7 +218,7 @@ body{
    height: 15px;
    top: 327px;
    }
-   .calendar4{
+   .calendar7{
    border: 1px solid white;
     width:140px;
    height:25px;
@@ -225,7 +227,7 @@ body{
    gap: 7px;
    margin-left:254px;
    }
-   .calender-img4{
+   .calender-img7{
    width: 20px;
    height: 20px;
    margin-top: 2px;
@@ -235,14 +237,14 @@ body{
    margin-bottom: 5px;
    border: none;
    }
-   .date4{
+   .date7{
        font-family: Inter;
        font-size: 12px;
        font-weight: 400;
        line-height: 14.52px;
        color:rgba(0, 0, 0, 1);
    }
-   .clock4{
+   .clock7{
        border:1px solid white;
        width:90px;
       height:25px;
@@ -252,7 +254,7 @@ body{
       
       
    }
-   .clock-icon4{
+   .clock-icon7{
    width: 20px;
    height: 20px;
    margin-top: 2px;
@@ -263,14 +265,14 @@ body{
    padding-left: 18px;
     
    }
-   .time-4{
+   .time-7{
        font-family: Inter;
        font-size: 12px;
        font-weight: 400;
        line-height: 14.52px;
        color:rgba(0, 0, 0, 1);
    }
-   .Reschedule-btn4{
+   .Reschedule-btn7{
    width: Fixed(226px)px;
    height: Hug(40px)px;
    top: 430px;
@@ -288,7 +290,7 @@ body{
    margin-bottom: 5px;
    border: 2px solid rgba(123, 97, 255, 1) ;
    }
-   .cancel-btn4{
+   .cancel-btn7{
    width: Fixed (226px)px;
    height: Hug (40px)px;
    top: 475px;
@@ -308,7 +310,7 @@ body{
    background-color: white;
    }
    /* styling for second appointment*/
-   .Appointment-5{
+   .Appointment-8{
        width: 398px;
        height: 298px;
        margin-top: 45px;
@@ -317,7 +319,7 @@ body{
        background: rgba(255, 255, 255, 1);
        border: none;
        }
-       .vid-icon5{
+       .vid-icon8{
        width: 24px;
        height: 24px;
        top: 278px;
@@ -325,7 +327,7 @@ body{
        padding: 6px 3px 6px 3px;
        
        }
-       .docs-img1-5{
+       .docs-img1-8{
        width: 131px;
        height: 112px;
        margin-top: 15px;
@@ -337,7 +339,7 @@ body{
        padding-left: 16px;
        
        }
-       .name5{
+       .name8{
        width: 93px;
        height: 18px;
        margin-left: 145px;   
@@ -350,7 +352,7 @@ body{
        border:none;
        padding-left: 15px;
        }
-       .proffesion-5{
+       .proffesion-8{
         font-family: Inter;
        font-size: 12px;
        font-weight: 700;
@@ -366,7 +368,7 @@ body{
        padding-left: 15px;
        
        }
-       .edu-level-5{
+       .edu-level-8{
        font-family: Inter;
        font-size: 12px;
        font-weight: 500;
@@ -382,7 +384,7 @@ body{
        padding-left: 15px;
        
        }
-       .location-5{
+       .location-8{
            font-family: Inter;
            font-size: 12px;
            font-weight: 400;
@@ -397,7 +399,7 @@ body{
            padding-left: 15px;
          
        }
-       .reviews-5{
+       .reviews-8{
        font-family: Inter;
        font-size: 12px;
        font-weight: 700;
@@ -412,7 +414,7 @@ body{
        height: 15px;
        top: 327px;
        }
-       .calendar-5{
+       .calendar-8{
        border: 1px solid white;
         width:140px;
        height:25px;
@@ -421,7 +423,7 @@ body{
        gap: 7px;
        margin-left:254px;
        }
-       .calender-img-5{
+       .calender-img-8{
        width: 20px;
        height: 20px;
        margin-top: 2px;
@@ -431,14 +433,14 @@ body{
        margin-bottom: 5px;
        border: none;
        }
-       .date-5{
+       .date-8{
            font-family: Inter;
            font-size: 12px;
            font-weight: 400;
            line-height: 14.52px;
            color:rgba(0, 0, 0, 1);
        }
-       .clock-5{
+       .clock-8{
            border:1px solid white;
            width:90px;
           height:25px;
@@ -448,7 +450,7 @@ body{
           
           
        }
-       .clock-icon-5{
+       .clock-icon-8{
        width: 20px;
        height: 20px;
        margin-top: 2px;
@@ -459,14 +461,14 @@ body{
        padding-left: 18px;
         
        }
-       .time5{
+       .time8{
            font-family: Inter;
            font-size: 12px;
            font-weight: 400;
            line-height: 14.52px;
            color:rgba(0, 0, 0, 1);
        }
-       .Reschedule-btn-5{
+       .Reschedule-btn-8{
        width: Fixed(226px)px;
        height: Hug(40px)px;
        top: 430px;
@@ -484,7 +486,7 @@ body{
        margin-bottom: 5px;
        border: 2px solid rgba(123, 97, 255, 1) ;
        }
-       .cancel-btn-5{
+       .cancel-btn-8{
        width: Fixed (226px)px;
        height: Hug (40px)px;
        top: 475px;
@@ -504,7 +506,7 @@ body{
        background-color: white;
        }
        /* styling for third appointment*/
-       .Appointment-6{
+       .Appointment-9{
            width: 398px;
            height: 298px;
            margin-top: 45px;
@@ -513,7 +515,7 @@ body{
            background: rgba(255, 255, 255, 1);
            border: none;
            }
-           .phone6{
+           .phone9{
            width: 24px;
            height: 24px;
            top: 278px;
@@ -521,7 +523,7 @@ body{
            padding: 6px 3px 6px 3px;
            
            }
-           .docs-img1-6{
+           .docs-img1-9{
            width: 131px;
            height: 112px;
            margin-top: 15px;
@@ -533,7 +535,7 @@ body{
            padding-left: 16px;
            
            }
-           .name-6{
+           .name-9{
            width: 93px;
            height: 18px;
            margin-left: 145px;   
@@ -546,7 +548,7 @@ body{
            border:none;
            padding-left: 15px;
            }
-           .proffesion-6{
+           .proffesion-9{
             font-family: Inter;
            font-size: 12px;
            font-weight: 700;
@@ -562,7 +564,7 @@ body{
            padding-left: 15px;
            
            }
-           .edu-level-6{
+           .edu-level-9{
            font-family: Inter;
            font-size: 12px;
            font-weight: 500;
@@ -578,7 +580,7 @@ body{
            padding-left: 15px;
            
            }
-           .location-6{
+           .location-9{
                font-family: Inter;
                font-size: 12px;
                font-weight: 400;
@@ -593,7 +595,7 @@ body{
                padding-left: 15px;
              
            }
-           .reviews-6{
+           .reviews-9{
            font-family: Inter;
            font-size: 12px;
            font-weight: 700;
@@ -608,7 +610,7 @@ body{
            height: 15px;
            top: 327px;
            }
-           .calendar-6{
+           .calendar-9{
            border: 1px solid white;
             width:140px;
            height:25px;
@@ -617,7 +619,7 @@ body{
            gap: 7px;
            margin-left:254px;
            }
-           .calender-img-6{
+           .calender-img-9{
            width: 20px;
            height: 20px;
            margin-top: 2px;
@@ -627,14 +629,14 @@ body{
            margin-bottom: 5px;
            border: none;
            }
-           .date-6{
+           .date-9{
                font-family: Inter;
                font-size: 12px;
                font-weight: 400;
                line-height: 14.52px;
                color:rgba(0, 0, 0, 1);
            }
-           .clock-6{
+           .clock-9{
                border:1px solid white;
                width:90px;
               height:25px;
@@ -644,7 +646,7 @@ body{
               
               
            }
-           .clock-icon-6{
+           .clock-icon-9{
            width: 20px;
            height: 20px;
            margin-top: 2px;
@@ -655,14 +657,14 @@ body{
            padding-left: 18px;
             
            }
-           .time-6{
+           .time-9{
                font-family: Inter;
                font-size: 12px;
                font-weight: 400;
                line-height: 14.52px;
                color:rgba(0, 0, 0, 1);
            }
-           .Reschedule-btn6{
+           .Reschedule-btn9{
            width: Fixed(226px)px;
            height: Hug(40px)px;
            top: 430px;
@@ -680,7 +682,7 @@ body{
            margin-bottom: 5px;
            border: 2px solid rgba(123, 97, 255, 1) ;
            }
-           .cancel-btn6{
+           .cancel-btn9{
            width: Fixed (226px)px;
            height: Hug (40px)px;
            top: 475px;
@@ -700,7 +702,7 @@ body{
            background-color: white;
            }
            /* styling for bar of icons*/
-   .settings-bar2{
+   .settings-bar3{
     width: Fixed 430px;
    height: 80px;
    top: 1180px;
@@ -714,7 +716,7 @@ body{
    
     }
     /* styling for profile-icon*/
-    .profile2{
+    .profile3{
                width: 45px;
                height: 50px;
                float: left;
@@ -726,7 +728,7 @@ body{
             
     }
     
-    .prof-con2{
+    .prof-con3{
        width: 24px;
        height: 24px;
        top: 11px;
@@ -734,7 +736,7 @@ body{
        padding: 4px 4px 4px 4px;
        
         }
-        .drs-prof2{
+        .drs-prof3{
        font-family: Inter;
        font-size: 12px;
        font-weight: 400;
@@ -747,7 +749,7 @@ body{
        color: rgba(0, 0, 0, 1);
         }
         /* styling for appointment-icon */
-        .appoint2{
+        .appoint3{
            width: 45px;
            height: 50px;
            float: left;
@@ -758,7 +760,7 @@ body{
             
    }
    
-   .appt-con2{
+   .appt-con3{
    width: 24px;
    height: 24px;
    top: 11px;
@@ -766,7 +768,7 @@ body{
    padding: 4px 4px 4px 4px;
    
     }
-    .aptt-prof2{
+    .aptt-prof3{
    font-family: Inter;
    font-size: 12px;
    font-weight: 400;
@@ -779,7 +781,7 @@ body{
    color: rgba(0, 0, 0, 1);
     }
      /* styling for prescription */
-     .Prescription2{
+     .Prescription3{
        width: 45px;
        height: 50px;
        float: left;
@@ -790,7 +792,7 @@ body{
         
    }
    
-   .pres-icon2{
+   .pres-icon3{
    width: 24px;
    height: 24px;
    top: 11px;
@@ -798,7 +800,7 @@ body{
    padding: 4px 4px 4px 4px;
    
    }
-   .pres-txt2{
+   .pres-txt3{
    font-family: Inter;
    font-size: 12px;
    font-weight: 400;
@@ -811,7 +813,7 @@ body{
    color: rgba(0, 0, 0, 1);
    }
    /* styling for community  */
-   .community2{
+   .community3{
        width: 45px;
        height: 50px;
        float: left;
@@ -822,7 +824,7 @@ body{
         
    }
    
-   .com-con2{
+   .com-con3{
    width: 24px;
    height: 24px;
    top: 11px;
@@ -830,7 +832,7 @@ body{
    padding: 4px 4px 4px 4px;
    
    }
-   .com-txt2{
+   .com-txt3{
    font-family: Inter;
    font-size: 12px;
    font-weight: 400;
@@ -843,7 +845,7 @@ body{
    color: rgba(0, 0, 0, 1);
    }
    /* styling for settings  */
-   .settings2{
+   .settings3{
        width: 45px;
        height: 50px;
        float: left;
@@ -855,7 +857,7 @@ body{
         
    }
    
-   .set-con2{
+   .set-con3{
    width: 24px;
    height: 24px;
    top: 11px;
@@ -863,7 +865,7 @@ body{
    padding: 4px 4px 4px 4px;
    
    }
-   .set-txt2{
+   .set-txt3{
    font-family: Inter;
    font-size: 12px;
    font-weight: 400;
@@ -875,4 +877,3 @@ body{
    left: 10px;
    color: rgba(0, 0, 0, 1);
    }
-   
