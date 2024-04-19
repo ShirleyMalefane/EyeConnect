@@ -1,0 +1,475 @@
+body{
+    background-color: black;
+}
+.container-payment{
+width: 440px;
+height: 968px;
+top: 9577px;
+left: 5574px;
+gap: 0px;
+border-radius: 30px 30px 30px 30px;
+background: #FFFFFF;
+
+}
+.patients-img{
+width: 50px;
+height: 50px;
+padding-top: 35px;
+margin-left: 33px;
+border: solid #FFFFFF;;
+}
+.comfirm{
+width: 181px;
+height: 34px;
+margin-left: 138px;
+font-family: Inter;
+font-size: 28px;
+font-weight: 700;
+line-height: 33.89px;
+text-align: left;
+color: #7B61FF;
+border: solid #FFFFFF;;
+}
+.txt-comfirm{
+ width: 238px;
+height: 55px;
+margin-top: 55px;
+margin-left: 96px;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.78px;
+text-align: center;
+color: black;
+border: none;
+}
+.card-details{
+    width: 350px;
+    height: 248px;
+    margin-top: 25px;
+    margin-left: 40px;    
+    background-color:#F9F8FF80;
+    border: none;
+
+}
+.from-text{
+width: 95px;
+height: 26px;
+margin-top: 36px;
+left: 59px;
+font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.78px;
+text-align: center;
+float: inline-start;
+}
+.enter-debt{
+width: 169px;
+height: 44px;
+top: 272px;
+left: 178px;
+border: none;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.78px;
+text-align: center;
+margin-top: 24px;
+
+}
+.to-text{
+    width: 95px;
+    height: 26px;
+    margin-top: 36px;
+    left: 59px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    text-align: center;
+    float: inline-start;
+    }
+.enter-credit{
+        width: 169px;
+        height: 44px;
+        top: 272px;
+        left: 178px;
+        border: none;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.78px;
+        text-align: center;
+        margin-top: 24px;
+        
+        }
+.total-text{
+            width: 95px;
+            height: 26px;
+            margin-top: 36px;
+            left: 59px;
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 21.78px;
+            text-align: center;
+            float: inline-start;
+            }
+.total{
+                width: 169px;
+                height: 44px;
+                top: 272px;
+                left: 178px;
+                border: none;
+                font-family: Inter;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 21.78px;
+                text-align: center;
+                margin-top: 24px;
+            }
+
+.Amounts{
+width: 350px;
+height: 180px;
+margin-top: 33px;
+margin-left: 40px;
+background-color:#F9F8FF80;
+border:none;
+
+
+
+}
+.amount-fig{
+    border: none;
+}
+.comm-fig{
+    border:solid#F9F8FF80;;
+}
+
+.amount-txt{
+width: 105px;
+height: 26px;
+top: 572px;
+margin-left: 30px;
+border:none;
+float: inline-start;
+margin-top: 18px;
+font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.78px;
+text-align: center;
+
+}
+.Amount-detail{
+    width: 83px;
+    height: 22px;
+    margin-top: 8px;
+    margin-left: 30px;
+   border:solid#F9F8FF80;;
+   text-align: center;
+   font-family: Inter;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 21.78px;
+   text-align: center; 
+}
+.commision-txt{
+ width: 105px;
+height: 26px;
+top: 572px;
+margin-left: 30px;
+border:none;
+float: inline-start;
+margin-top: 18px;
+font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.78px;
+text-align: center;
+    
+    
+    
+    }
+    .commision-detail{
+    width: 83px;
+    height: 22px;
+    margin-top: 8px;
+    margin-left: 30px;
+   border: none;
+   text-align: center;
+   font-family: Inter;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 21.78px;
+   text-align: center;
+         
+    }
+    .line{
+ width: 295px;
+height: 0px;
+margin-top:1px;
+left: 64px;
+gap: 0px;
+border: 2px 2px 2px 2px;
+opacity: 0px;
+border: 2px solid #000000
+
+    }
+    .total-txt{
+        width: 105px;
+        height: 26px;
+        top: 572px;
+        margin-left: 30px;
+        border:none;
+        float: inline-start;
+        margin-top: 18px;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.78px;
+        text-align: center;
+        
+        }
+         .total-det{
+            width: 83px;
+            height: 22px;
+            margin-top: 15px;
+            margin-left: 30px;
+           border: none;
+           text-align: center;
+           font-family: Inter;
+           font-size: 18px;
+           font-weight: 400;
+           line-height: 21.78px;
+           text-align: center;    
+        }
+        .buttons-comfirm-cancel{
+            display: flex;
+            border: none;
+            padding-bottom: 40px;
+        }
+        .btn-comfirm{
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24.2px;
+            letter-spacing: -0.30000001192092896px;
+            text-align: left;
+            width: 134px;
+            height: 51px;
+            margin-top: 40px;
+            margin-left: 40px;
+            padding: 1px 1px 1px 1px;
+            gap: 10px;
+            border-radius: 20px 20px 20px 20px;
+            background: #7B61FF;
+            color: #FFFFFF;
+            text-align: center;
+        
+        }
+        .btn-cancel{
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24.2px;
+            letter-spacing: -0.30000001192092896px;
+            text-align: left;
+            width: 134px;
+            height: 51px;
+            margin-top: 40px;
+            margin-left: 40px;
+            padding: 1px 1px 1px 1px;
+            gap: 10px;
+            border-radius: 20px 20px 20px 20px;
+            background: #7B61FF80;
+            color: #FFFFFF;
+            margin-left: 82px;
+            text-align: center;
+        
+        }
+        
+        /* styling for bar of icons*/
+        .settings-bar14{
+            width: 420px;
+           height: 80px;
+           top: 1180px;
+           margin-right: 8px;
+           padding: 5px 5px 5px 5px;
+           gap: 25px;
+           border-radius: 10px 10px 10px 10px;
+           opacity: 0px;
+           background-color:none;
+           padding-top: 10px;
+            }
+            /* styling for profile-icon*/
+            .profile14{
+                       width: 45px;
+                       height: 50px;
+                       float: left;
+                       border: none;
+                       padding: 10px 10px 10px 10px;
+                       border: solid #FFFFFF;
+                       margin-right: 3px;
+                       font-family: Inter;
+                    
+            }
+            
+            .prof-con14{
+               width: 24px;
+               height: 24px;
+               top: 11px;
+               left: 16px;
+               padding: 4px 4px 4px 4px;
+               
+                }
+                .drs-prof14{
+               font-family: Inter;
+               font-size: 12px;
+               font-weight: 400;
+               line-height: 14.52px;
+               text-align: left;
+               width: 45px;
+               height: 15px;
+               top: 46px;
+               left: 10px;
+               color: rgba(0, 0, 0, 1);
+                }
+                /* styling for appointment-icon */
+                .appoint14{
+                   width: 45px;
+                   height: 50px;
+                   float: left;
+                   border: none;
+                   padding: 10px 10px 10px 10px;
+                   border:solid #FFFFFF;
+                   margin-right: 5px;
+                    
+           }
+           
+           .appt-con14{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+            }
+            .aptt-prof14{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+            }
+             /* styling for prescription */
+             .Prescription14{
+               width: 45px;
+               height: 50px;
+               float: left;
+               border: none;
+               padding: 10px 10px 10px 10px;
+               border: solid #FFFFFF;;
+               margin-right: 5px;
+                
+           }
+           
+           .pres-icon14{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+           }
+           .pres-txt14{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+           }
+           /* styling for community  */
+           .community14{
+               width: 45px;
+               height: 50px;
+               float: left;
+               border: none;
+               padding: 10px 10px 10px 10px;
+               border: solid #FFFFFF;;
+               margin-right: 5px;
+                
+           }
+           
+           .com-con14{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+           }
+           .com-txt14{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+           }
+           /* styling for settings  */
+           .settings14{
+               width: 45px;
+               height: 50px;
+               float: left;
+               border: none;
+               padding: 10px 10px 10px 10px;
+               border: solid #FFFFFF;;
+               margin-right: 5px;
+           
+                
+           }
+           
+           .set-con14{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+           }
+           .set-txt14{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+           }
+
+        
+
+
+        
+
+

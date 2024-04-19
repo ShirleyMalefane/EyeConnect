@@ -1,0 +1,492 @@
+body{
+    background-color: black;
+}
+.container-5{
+width: 430px;
+height: 1280px;
+top: 2338px;
+left: 498px;
+border-radius: 30px 30px 30px 30px;
+background:rgba(255, 255, 255, 1);
+}
+.docs-dets{
+width: 398px;
+height: 600px;
+margin-top: 32px;
+margin-left: 16px;
+border-radius: 40px 40px 40px 40px;
+background: rgba(123, 97, 255, 0.1);
+}
+.app-logo-10{
+border: none;
+width: 116px;
+height: 49px;
+padding-top: 45px;
+margin-left: 45px;
+border-radius: 20px 20px 20px 20px;
+padding-bottom: 15px;
+float:inline-end;
+border:none;
+padding-right: 25px;
+
+
+
+}
+.greaterthan{
+ width: 30px;
+height: 30px;
+margin-top: 3px;
+margin-left: 27px;
+gap: 0px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+border:none;
+padding-top: 70px;
+
+}
+.doctors-profile{
+width: 239.13px;
+height: 191.3px;
+margin-top: 14px;
+margin-left: 88.64px;
+border: none;
+display: flex;
+display: inline-block;
+
+}
+.drprof{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 61px;
+}
+.drs-name{
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24.2px;
+letter-spacing: 0.3337211012840271px;
+text-align: center;
+width: 197px;
+height: 24px;
+top: 239px;
+margin-left: 14px;
+}
+.drs-proffesion{
+    width: 97px;
+    height: 15px;
+    top: 273px;
+    margin-left: 70px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.52px;
+    text-align: left;
+}
+.badges{
+    display: flex;
+    margin-left: 20px;
+   
+}
+.badges-1{
+ width: 110px;
+height: 130px;
+border: none;
+background: #FFFFFF;
+margin-right: 15px;
+border-radius: 15px 15px 15px 15px;
+
+
+
+}
+.group-icon{
+width: 49px;
+height: 63px;
+margin-left: 33px;
+gap: 0px;
+border-radius: 0px 0px 15px 15px;
+opacity: 0px;
+border:none;
+
+}
+.number-1{
+    width: 80px;
+    height: 40px;
+    top: 80px;
+    margin-left: 15px;
+    font-family: Museo Sans Cyrl;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    letter-spacing: 0.49px;
+    text-align: center;
+    color: #222B45;
+    border:none;
+    margin-right: 50px;
+    margin-top: 7px;
+
+}
+.experi{
+width: 49px;
+height: 63px;
+margin-left: 31px;
+border-radius: 0px 0px 15px 15px;
+border: none;
+}
+.badges-2{
+    width: 110px;
+   height: 130px;
+   border: none;
+   background: #FFFFFF;
+   margin-right: 15px;
+   border-radius: 15px 15px 15px 15px;
+}
+.number-2{
+    width: 80px;
+    height: 40px;
+    top: 80px;
+    margin-left: 15px;
+    font-family: Museo Sans Cyrl;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    letter-spacing: 0.49px;
+    text-align: center;
+    color: #222B45;
+    border:none;
+    margin-right: 50px;
+}
+
+.badges-3{
+    width: 110px;
+    height: 130px;
+    border: none;
+    background: #FFFFFF;
+    margin-right: 15px;
+    border-radius: 15px 15px 15px 15px;
+}
+.ratings-img{
+ width: 49px;
+height: 63px;
+margin-left: 33px;
+gap: 0px;
+border-radius: 0px 0px 15px 15px;
+opacity: 0px;
+border: soild purple; 
+}
+.number-3{
+    width: 80px;
+    height: 40px;
+    top: 80px;
+    margin-left: 15px;
+    font-family: Museo Sans Cyrl;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    letter-spacing: 0.49px;
+    text-align: center;
+    color: #222B45;
+    border:none;
+    margin-right: 50px;
+}
+.details{
+width: 124px;
+height: 22px;
+padding-left: 10px;
+font-family: Inter;
+font-size: 18px;
+font-weight: 800;
+line-height: 21.78px;
+letter-spacing: 0.30034899711608887px;
+text-align: left;
+border: none;
+}
+.txt-details{
+width: 360px;
+height: 100px;
+top: 34px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.2336047738790512px;
+text-align: left;
+border:none;
+}
+.working-time{
+   border:none;
+   width: 360px;
+   height: 75px;
+   top: 726px;
+   left: 16px;
+   gap: 0px;
+   opacity: 0px;
+   padding-left: 10px;
+ 
+}
+.work-time{
+width: 118px;
+height: 22px;
+left: 1px;
+font-family: Museo Sans Cyrl;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.6px;
+letter-spacing: 0.30034899711608887px;
+text-align: left;
+color: #222B45;
+margin-bottom: 0px;
+
+}
+.full-time{
+    font-family: Museo Sans Cyrl;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2336047738790512px;
+    text-align: left;
+    width: 360px;
+    height: 20px;
+    top: 34px;
+    color:#6B779A; 
+}
+.comm-text{
+width: 141px;
+height: 22px;
+font-family: Museo Sans Cyrl;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.6px;
+letter-spacing: 0.30034899711608887px;
+text-align: left;
+color: #222B45;
+padding-left: 10px;
+
+}
+.comm{
+ width: 211px;
+height: 218px;
+top: 813px;
+left: 16px;
+gap: 0px;
+opacity: 0px;
+border:none;
+}
+.messaging{
+    border:none;
+    width: 211px;
+    height: 50px;
+   top: 813px;
+   left: 16px;
+   margin-bottom: 7px;
+
+}
+.msg-con{
+float: left;
+}
+
+.chat-metxt{
+width: 151px;
+height: 14px;
+margin-left: 50px;
+font-family: Museo Sans Cyrl;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.4px;
+letter-spacing: 0.20023266971111298px;
+border: none;
+margin-top:9px;
+}
+.book-appointmentbtn {
+ width: Fixed (358px)px;
+height: Hug (40px)px;
+margin-top: 30px;
+margin-left: 86px;
+padding: 10px 80px 10px 80px;
+gap: 16px;
+border-radius: 20px 20px 20px 20px;
+border: 1px 1px 1px 1px;
+opacity: 0px;
+cursor: pointer;
+background-color: rgba(123, 97, 255, 1);
+color: #fff;
+border: 1px orange;
+margin-bottom: 35px;
+
+  }
+        /* styling for bar of icons*/
+        .settings-bar13{
+            width: 420px;
+           height: 80px;
+           top: 1180px;
+           margin-right: 8px;
+           padding: 5px 5px 5px 5px;
+           gap: 25px;
+           border-radius: 10px 10px 10px 10px;
+           opacity: 0px;
+           background-color: rgba(190, 184, 220, 1);
+           padding-top: 10px;
+            }
+            /* styling for profile-icon*/
+            .profile13{
+                       width: 45px;
+                       height: 50px;
+                       float: left;
+                       border: none;
+                       padding: 10px 10px 10px 10px;
+                       border: solid rgba(190, 184, 220, 1);
+                       margin-right: 3px;
+                       font-family: Inter;
+                    
+            }
+            
+            .prof-con13{
+               width: 24px;
+               height: 24px;
+               top: 11px;
+               left: 16px;
+               padding: 4px 4px 4px 4px;
+               
+                }
+                .drs-prof13{
+               font-family: Inter;
+               font-size: 12px;
+               font-weight: 400;
+               line-height: 14.52px;
+               text-align: left;
+               width: 45px;
+               height: 15px;
+               top: 46px;
+               left: 10px;
+               color: rgba(0, 0, 0, 1);
+                }
+                /* styling for appointment-icon */
+                .appoint13{
+                   width: 45px;
+                   height: 50px;
+                   float: left;
+                   border: none;
+                   padding: 10px 10px 10px 10px;
+                   border:solid rgba(190, 184, 220, 1);
+                   margin-right: 5px;
+                    
+           }
+           
+           .appt-con13{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+            }
+            .aptt-prof13{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+            }
+             /* styling for prescription */
+             .Prescription13{
+               width: 45px;
+               height: 50px;
+               float: left;
+               border: none;
+               padding: 10px 10px 10px 10px;
+               border: solid rgba(190, 184, 220, 1);
+               margin-right: 5px;
+                
+           }
+           
+           .pres-icon13{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+           }
+           .pres-txt13{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+           }
+           /* styling for community  */
+           .community13{
+               width: 45px;
+               height: 50px;
+               float: left;
+               border: none;
+               padding: 10px 10px 10px 10px;
+               border: solid rgba(190, 184, 220, 1);
+               margin-right: 5px;
+                
+           }
+           
+           .com-con13{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+           }
+           .com-txt13{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+           }
+           /* styling for settings  */
+           .settings13{
+               width: 45px;
+               height: 50px;
+               float: left;
+               border: none;
+               padding: 10px 10px 10px 10px;
+               border: solid rgba(190, 184, 220, 1);
+               margin-right: 5px;
+           
+                
+           }
+           
+           .set-con13{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+           }
+           .set-txt13{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+           }
+
