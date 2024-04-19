@@ -1,0 +1,349 @@
+.payment-container{
+width: 430px;
+height: 932px;
+top: 9607px;
+left: 6048px;
+gap: 0px;
+border-radius: 30px 30px 30px 30px;
+opacity: 0px;
+background: #FFFFFF;
+}
+body{
+    background-color: black;
+}
+.patients-img2{
+    width: 50px;
+    height: 50px;
+    padding-top: 35px;
+    margin-left: 33px;
+    border: solid #FFFFFF;;
+    }
+    .pay{
+    width: 181px;
+    height: 34px;
+    margin-left: 138px;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.89px;
+    text-align: left;
+    color: #7B61FF;
+    border: solid #FFFFFF;
+    }
+    .apple-id{
+width: 393px;
+height: 100px;
+top: 226px;
+left: 20px;
+gap: 0px;
+border: 1px 1px 1px 1px;
+opacity: 0px;
+border:none;
+margin-bottom: 90px;
+background: #F9F8FF80;
+border:none;
+margin-bottom: 2px;
+
+
+    }
+    .apple{
+ width: 49px;
+height: 50px;
+margin-top: 2px;
+border: none;
+float: inline-start;
+    }
+    .apple-idtxt{
+border: none;
+margin-top: 20px;
+font-family: Inter;
+font-size: 22px;
+font-weight: 700;
+line-height: 26.63px;
+text-align: center;
+height: 24px;
+width: 192px;
+
+    }
+    .arrow{
+width: 34px;
+height: 34px;
+margin-top:9px;
+margin-left: 350px;
+border: none;
+
+    }
+    .mastercard{
+        width: 393px;
+        height: 100px;
+        margin-bottom: 2px;
+        left: 20px;
+        gap: 0px;
+        border: 1px 1px 1px 1px;
+        opacity: 0px;
+        border: none;
+        margin-bottom: 2px;
+        background: #F9F8FF80;
+        
+        
+            }
+     .arrow2{
+                width: 34px;
+                height: 34px;
+                margin-top:9px;
+                margin-left: 350px;
+                border: none;
+                
+                    }
+    .mastercard-log{
+        width: 49px;
+        height: 50px;
+        margin-top: 2px;
+        border: none;
+        float: inline-start;
+
+    }
+    .matercard-idtxt{
+ border: none;
+margin-top: 20px;
+font-family: Inter;
+font-size: 22px;
+font-weight: 700;
+line-height: 26.63px;
+text-align: center;
+height: 24px;
+width: 192px;
+
+    }
+    .visa{
+        width: 393px;
+        height: 100px;
+        top: 226px;
+        left: 20px;
+        gap: 0px;
+        border: 1px 1px 1px 1px;
+        opacity: 0px;
+        border:none;
+        background: #F9F8FF80;
+        border: none;
+        margin-bottom: 2px;
+        
+
+    }
+    .arrow3{
+        width: 34px;
+        height: 34px;
+        margin-top:9px;
+        margin-left: 350px;
+        border: none;
+        
+            }
+     .visa-log{
+                width: 49px;
+                height: 50px;
+                margin-top: 2px;
+                border: none;
+                float: inline-start;
+            }
+    .visa-idtxt{
+                border: none;
+                margin-top: 20px;
+                font-family: Inter;
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 26.63px;
+                text-align: center;
+                height: 24px;
+                width: 192px;
+
+            }
+    .add-pay{
+ width: 350px;
+height: 65px;
+margin-top: 180px;
+margin-left: 40px;
+background: #F9F8FF80;
+font-family: Inter;
+font-size: 23px;
+font-weight: 700;
+line-height: 27.84px;
+text-align: center;
+color: #7B61FF;
+border: none;
+            }
+             /* styling for bar of icons*/
+        .settings-bar15{
+            width: 420px;
+           height: 80px;
+           top: 1180px;
+           margin-right: 8px;
+           padding: 5px 5px 5px 5px;
+           gap: 25px;
+           border-radius: 10px 10px 10px 10px;
+           opacity: 0px;
+           background-color:none;
+           padding-top: 10px;
+           margin-top: 135px;
+            }
+            /* styling for profile-icon*/
+            .profile15{
+                       width: 45px;
+                       height: 50px;
+                       float: left;
+                       border: none;
+                       padding: 10px 10px 10px 10px;
+                       border: solid #FFFFFF;
+                       margin-right: 3px;
+                       font-family: Inter;
+                    
+            }
+            
+            .prof-con15{
+               width: 24px;
+               height: 24px;
+               top: 11px;
+               left: 16px;
+               padding: 4px 4px 4px 4px;
+               
+                }
+                .drs-prof15{
+               font-family: Inter;
+               font-size: 12px;
+               font-weight: 400;
+               line-height: 14.52px;
+               text-align: left;
+               width: 45px;
+               height: 15px;
+               top: 46px;
+               left: 10px;
+               color: rgba(0, 0, 0, 1);
+                }
+                /* styling for appointment-icon */
+                .appoint15{
+                   width: 45px;
+                   height: 50px;
+                   float: left;
+                   border: none;
+                   padding: 10px 10px 10px 10px;
+                   border:solid #FFFFFF;
+                   margin-right: 5px;
+                    
+           }
+           
+           .appt-con15{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+            }
+            .aptt-prof15{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+            }
+             /* styling for prescription */
+             .Prescription15{
+               width: 45px;
+               height: 50px;
+               float: left;
+               border: none;
+               padding: 10px 10px 10px 10px;
+               border: solid #FFFFFF;;
+               margin-right: 5px;
+                
+           }
+           
+           .pres-icon15{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+           }
+           .pres-txt15{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+           }
+           /* styling for community  */
+           .community15{
+               width: 45px;
+               height: 50px;
+               float: left;
+               border: none;
+               padding: 10px 10px 10px 10px;
+               border: solid #FFFFFF;;
+               margin-right: 5px;
+                
+           }
+           
+           .com-con15{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+           }
+           .com-txt15{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+           }
+           /* styling for settings  */
+           .settings15{
+               width: 45px;
+               height: 50px;
+               float: left;
+               border: none;
+               padding: 10px 10px 10px 10px;
+               border: solid #FFFFFF;;
+               margin-right: 5px;
+           
+                
+           }
+           
+           .set-con15{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+           }
+           .set-txt15{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+           }
