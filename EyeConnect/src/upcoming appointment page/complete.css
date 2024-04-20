@@ -1,7 +1,7 @@
 body{
     background-color: black;   
    }
-   .container-ap2{
+   .container-ap3{
    width: 430px;
    height: 1400px;
    top: 38px;
@@ -701,7 +701,7 @@ body{
            }
            /* styling for bar of icons*/
    .settings-bar2{
-    width: Fixed 430px;
+    width: 420px;
    height: 80px;
    top: 1180px;
    margin-right: 8px;
