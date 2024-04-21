@@ -1,0 +1,98 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 430px;
+    height: 100%;
+    margin: auto;
+    border-radius: 30px;
+    opacity: 1;
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box;
+    background-color: rgba(190, 184, 220, 1);
+  }
+  
+  .back-icon {
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: fit-content;
+  }
+  
+  .select-date {
+    margin-top: 20px;
+  }
+  
+  .select-date h2 {
+    text-align: left;
+  }
+  
+  .select-date .fa-pencil-alt {
+    float: right;
+    
+  }
+  
+  .calendar-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .month-year {
+    text-align: center;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+  }
+  
+  .buttons {
+    text-align: right;
+    margin-top: 10px;
+  }
+
+  .cancel-btn{
+  }
+
+  .ok-btn{
+  }
+  
+  .available-time {
+    margin-top: 20px;
+  }
+  
+  .available-time h2 {
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  .time-slots-container {
+    /* Style time slots */
+  }
+  
+  .reminder-time {
+    /* Style reminder time slots */
+  }
+  
+  .confirm-btn {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgba(123, 97, 255, 1);
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+  
