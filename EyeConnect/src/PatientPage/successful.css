@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+}
+.container-2{
+width: 100%;
+max-width: 430px;
+height: 100%;
+margin: auto;
+border-radius: 30px;
+opacity: 1;
+padding: 20px; /* Adjust padding as needed */
+box-sizing: border-box;
+background-color: rgba(255, 255, 255, 1);
+;
+}
+.checked-icon{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 184.44px;
+}
+.email-veri{
+color: rgba(9, 15, 71, 1);
+ text-align: center;
+ font-size:24px ;
+font: inter;
+font-weight: 600;
+padding-top: 75px;
+}
+.success{
+    border: none;
+    Width :275.15px;
+    margin-left:78.19px;
+    color: rgba(9, 15, 71, 0.45);
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    top: 450px;
+
+}
+
+.success2{
+    Width :275.15px;
+    margin-left:78.19px;
+    color: rgba(9, 15, 71, 0.45);
+    text-align: center;
+
+}
+
+.login-form2{
+    border: none;
+    height: 74px;
+    width: 382px;
+    top: 248px;
+    margin-left:px;
+    color: #00000033;
+    padding-top: 15px;
+    margin-bottom: 200px;
+}
+
+#comfirm-pass{
+border: 1px solid rgba(234, 150, 32, 1);
+width:382px;
+height:48px;
+padding: 10px 0px 0px 0px;
+gap:10px;
+border-radius: 8px 8px 8px 8px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+color: #FFFFFF;
+font-weight: 600;
+font-size: 20px;
+background-color: #7B61FF;
+margin-top: 45px;
+
+}
+
+.edit-link {
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 10px;
+  }
+  
+  .edit-link-text {
+    text-decoration: none;
+    color: black;
+  }
