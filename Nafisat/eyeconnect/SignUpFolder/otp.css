@@ -1,7 +1,5 @@
 body {
     background-color: #000000;
-    width: 100vw;
-    overflow-x: hidden;
 }
 
 .container {
@@ -13,7 +11,7 @@ body {
     border-radius: 30px;
     font-family: 'inter', sans-serif; /* Added fallback font */
     background-color: rgba(190, 184, 220, 1);
-    margin:20px auto;
+    margin:0 auto;
 }
 
 h2 {
@@ -67,8 +65,6 @@ input {
     font-weight: 500;
     font-size: 12px;
     color: #746f6f;
-    border:none;
-    outline:none;
 }
 
 #back-button {
@@ -131,22 +127,61 @@ input {
     font-size: 16px;
 }
 
-@media (max-width:500px){
-.container{
+/* additional css */
+#login-button {
+  width: 350px;
+  height: 35px;
+}
+input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 500px) {
+
+    .container{
+        width:100%;
+        margin:0;
+    }
+  body{
     width:100vw;
-}
-
-#user-mail{
-    width:300px;
+    overflow-x: hidden;
+  }
+ 
+  .email-form,
+  .password-form {
+    margin-left: 35px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  #user-mail,
+  #enter-pass {
+    width: 300px;
+  }
+  .eye {
+    padding-left: 40px;
+  }
+  #login-button {
+    width: 80vw;
     
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  #forgot {
+    position: relative;
+    left: -20px;
+    text-decoration: none;
+  }
+  #otp-button, #confirm-button{
+    width:250px;
+    position:relative;
+    left:30px;
+  }
+   .confirm-text{
+    font-size:18px;
+  }
+}
 
-}
-#confirm-button, #otp-button{
-    width:300px;
-    display: flex;
-    justify-content:center;
-    cursor:pointer;
-    
-}
-
-}

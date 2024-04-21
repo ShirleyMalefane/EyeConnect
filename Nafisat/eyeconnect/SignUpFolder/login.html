@@ -13,14 +13,14 @@
         <h3>Login</h3>
         <div class="email-form">
             Email
-            <div class="user-mail">
+            <div id="user-mail">
                 <label for="Email"><img src="iconamoon_email-thin.png" alt="email-icon"></label>
-                <input id="email" type="text" name="Email" placeholder="Enter your email">
+                <input type="email" id="email" name="Email" placeholder="Enter your username">
             </div>
         </div>
         <div class="password-form">
             Password
-            <div class="user-mail" id="pass">
+            <div id="enter-pass">
                 <label for="password"><img src="arcticons_password.png" alt="pass-lock-icon"></label>
                 <input id="password" type="password" name="password" placeholder="Enter your password"><img class="eye" src="clarity_eye-hide-line.png" alt="eye-check" >
             </div>
@@ -30,6 +30,7 @@
         </div>
         <section>
             <div class="login-form">
+                
             <button onclick="login()" id="login-button">
             Login
             </button>
@@ -42,7 +43,7 @@
             <img class="google" src="flat-color-icons_google.jpg" alt="" >
             <img class="facebook" src="logos_facebook.jpg" alt="">
         </div>
-        <section id="sign-up">Are you a new user?<a href="signup.html">Sign up</a></section>
+        <section id="sign-up">Are you a new user?<a href="./signup.html">Sign up</a></section>
     </div>
     <script src="./js/login.js"></script>
 </body>

@@ -4,6 +4,7 @@ const emailInp = document.getElementById("email");
 const passwordInp = document.getElementById("password");
 const confirmPasswordInp = document.getElementById("confirm-password");
 const signupBtn=document.getElementById("signup-button")
+
 const register = () => {
     signupBtn.innerHTML="Loading ..."
     signupBtn.disabled=true
@@ -33,7 +34,8 @@ const register = () => {
         console.log(data)
         if(data.success){
             alert("Successful")
-            window.location.assign("login.html")
+            localStorage.setItem("eyeconnect_token", data.result.token)
+            window.location.assign("../homepage/home.html")
         }
         else{
             alert("Operation failed, try with a different username or email")
@@ -43,3 +45,4 @@ const register = () => {
     }
   }
 };
+

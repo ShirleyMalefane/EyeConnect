@@ -36,5 +36,6 @@ const resetPassword = () => {
     }
   } else {
     alert("Completely fill out the from to continue");
+    window.location.reload()
   }
 };

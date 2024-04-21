@@ -1,7 +1,5 @@
 body{
     background-color: black;
-    width: 100vw;
-    overflow-x:hidden ;
 }
 .container-2{
 width: 430px;
@@ -13,7 +11,7 @@ border-radius: 30px 30px 30px 30px;
 font: inter;
 border: transparent;
 background-color: rgba(255, 255, 255, 1);
-margin:10px auto;
+margin:20px auto;
 ;
 }
 .checked-icon{
@@ -53,7 +51,7 @@ padding-top: 75px;
     margin-top: 30px;
 
 }
-.enter-pass2{
+#enter-pass2, #enter-pass{
     border:1px solid rgba(234, 150, 32, 1);
     width:379px;
     height:40px;
@@ -75,13 +73,6 @@ font-size: 12px;
 color: #746F6F;
 padding-top: 8px;
 background: rgba(217, 217, 217, 1);
-
-}
-input{
-width:250px;
-height:100%;
-border:none;
-outline:none;
 }
 .eye-icon{
     border: none;
@@ -114,24 +105,74 @@ font-size: 20px;
 background-color: #7B61FF;
 margin-top: 45px;
 }
-@media (max-width:500px){
-     .container-2{
-        width:100vw
-     }
-     #confirm-pass{
-        width:30px;
-     }
-     .enter-pass2{
-        width:280px;
-     }
-     .eye-icon{
-        padding-left: 100px;
-     }
-     #comfirm-pass{
-        width:250px;
-     }
-     .congrts{
-        width:200px
-     }
-     
+/* additional css */
+#login-button {
+  width: 350px;
+  height: 35px;
 }
+input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 500px) {
+
+    .container-2{
+        width:100%;
+        margin:0;
+    }
+  body{
+    width:100vw;
+    overflow-x: hidden;
+  }
+ 
+  .email-form,
+  .password-form {
+    margin-left: 35px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  #user-mail,
+  #enter-pass {
+    width: 300px;
+  }
+  .eye-icon {
+    padding-left: 100px;
+  }
+  #login-button {
+    width: 80vw;
+    
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  #forgot {
+    position: relative;
+    left: -20px;
+    text-decoration: none;
+  }
+  #otp-button, #confirm-button{
+    width:250px;
+    position:relative;
+    left:30px;
+  }
+   .confirm-text{
+    font-size:18px;
+  }
+  .password-form2{
+    width:300px;
+  }
+  #enter-pass,#enter-pass2{
+    width:300px;
+  }
+  #comfirm-pass{
+    width:300px;
+  }
+}
+
+
+
+
+

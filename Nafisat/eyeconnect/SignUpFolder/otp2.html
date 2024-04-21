@@ -14,29 +14,30 @@
                 Get started
             </h2>
             <h3>We sent you a code</h3>
-            <p>We sent a verification code to <span id="email-placeholder" style="color:blueviolet;display: block; margin-top:10px; ;">"put email"</span></p>
+            <p>We sent a verification code to <span id="email-placeholder">"put email"</span></p>
             <div class="verification-code">
-                <input  id="inp1" type="text" maxlength="1" class="code-input" />
-                <input  id="inp2" type="text" maxlength="1" class="code-input" />
-                <input  id="inp3" type="text" maxlength="1" class="code-input" />
-                <input  id="inp4" type="text" maxlength="1" class="code-input" />
-                <input  id="inp5" type="text" maxlength="1" class="code-input" />
-                <input  id="inp6" type="text" maxlength="1" class="code-input" />
+                <input id="inp1" type="text" maxlength="1" class="code-input" />
+                <input id="inp2" type="text" maxlength="1" class="code-input" />
+                <input id="inp3" type="text" maxlength="1" class="code-input" />
+                <input id="inp4" type="text" maxlength="1" class="code-input" />
+                <input id="inp5" type="text" maxlength="1" class="code-input" />
+                <input id="inp6" type="text" maxlength="1" class="code-input" />
             </div>
         </div>
 
         <section>
             <div class="button-container">
-                <button onclick="startCounter()" id="resend-button">Resend</button>
+                <button id="resend-button"><a href="./otp.html" style="color:inherit; text-decoration: none;">Resend</a></button>
                 <button onclick="verify()" id="verify-button">Verify</button>
             </div>
         </section>
         
 
         <section id="text">This code should arrive in <span id="counter">30</span> seconds</section>
+
+        <script src="./js/otp2.js"></script>
                       
         
     </div>
-    <script type="text/javascript" src="./js/otp2.js"></script>
 </body>
 </html>

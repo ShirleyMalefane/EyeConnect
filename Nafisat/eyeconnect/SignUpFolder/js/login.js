@@ -24,8 +24,12 @@ const login=()=>{
             })
         }).then(res=>res.json()).then(data=>{
             if(data.success){
+                console.log(data.result)
+                const {token}=data.result
+                localStorage.setItem("eyeconnect_token", token)
                 alert( `successful login, youre now logged in as ${data.result.name}`)
-            }
+                 window.location.assign("../HomePage/home.html")            
+}
              else{
                 alert(data.result)
                 window.location.reload()

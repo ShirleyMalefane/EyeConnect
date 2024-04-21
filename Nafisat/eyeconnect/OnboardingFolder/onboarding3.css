@@ -1,5 +1,7 @@
 body{
     background:black;
+    width:100%;
+    overflow-x: hidden;
 
 }
 .container{
@@ -12,8 +14,6 @@ border-radius: 30px 30px 30px 30px;
 opacity: 0px;
 background-color:rgba(123, 97, 255, 1);
 margin:20px auto;
-;
-
 
 }
 .doctors-img1{
@@ -29,7 +29,7 @@ margin:20px auto;
 
 }
 .txts{
- background-color: white;
+ background-color:white;
 width: 430px;
 height: 419px;
 top: 511px;
@@ -71,8 +71,6 @@ top: 721px;
 margin-left: 180px;
 margin-top: 68px;
 
-
-
 }
 .dot-1 , .dot-2 , .dot-3{
     padding-right: 5px; 
@@ -87,45 +85,32 @@ margin-top: 68px;
     padding-top: 15px;
 }
 #started-btn{
-    border: none;
-    width:379px;
-    height:40px;
-    padding: 10px 0px 0px 0px;
-    gap: 10px;
-    border-radius: 8px 8px 8px 8px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 20px;
-    background-color: #7B61FF;
-    margin-top: 68px;
-    margin-bottom: 95px;
+        width: Fixed (281px)px;
+        height: Hug (56px)px;
+        top: 788px;
+        margin-left: 74px;
+        padding: 16px 80px 16px 80px;
+        gap: 16px;
+        border-radius: 20px 20px 20px 20px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        color: white;
+        background-color: rgba(123, 97, 255, 1);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24.2px;
+        text-align: left;
+        border:1px solid rgba(234, 150, 32, 1);
+        margin-top: 35px;
+        }
+    
+@media (max-width:500px){
+    .container{
+        width:100%;
     }
-    @media (max-width:500px) {
-        body{
-            width:100vw;
-            overflow-x: hidden;
-        }
-        .container{
-            width:98vw
-        }
-        .connect-txt{
-            width:300px;
-            font-size:20px;
-            text-align: center;
-        }
-        .txt2{
-            font-size:16px;
-            opacity:0.7
-        }
-        #started-btn{
-            width:300px;
-            padding:0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor:pointer;
-        }
+    .skip-lnk1{
+        margin-left:300px;
+    }
 
-    }
+}
