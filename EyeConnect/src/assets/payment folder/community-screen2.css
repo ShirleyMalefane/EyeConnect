@@ -1,0 +1,356 @@
+body{
+    background-color: black;
+}
+.container-comm2{
+width: 430px;
+height: 932px;
+top: 9607px;
+left: 8089px;
+border-radius: 30px 30px 30px 30px;
+background: #FFFFFF;
+border: solid white;
+}
+.name-text2{
+    width: 66px;
+    height: 29px;
+    margin-top: 58px;
+    margin-left: 21px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    color: #7B61FF;
+    
+    }
+    .connect-txt2{
+        width: 238px;
+        height: 22px;
+        margin-top: 28px;
+        margin-left: 20px;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.78px;
+        text-align: center;
+        color: #000000;
+    }
+    .second-prof2{
+        box-shadow: 0px 4px 20px 0px #00000040;
+        width: 389.52px;
+        height: 276px;
+        margin-top: 10px;
+        margin-left: 20px;
+        }
+        .img-prof2{
+            width: 66.24px;
+            height: 66.24px;
+            top: 223.52px;
+            margin-left: 150px;
+            border: none;
+            padding-top: 15px;           
+            }
+            .name-jk{
+                width: 62px;
+                height: 27px;
+                margin-top: 1px;
+                margin-left: 150px;
+                font-family: Inter;
+                font-size: 22.51px;
+                font-weight: 700;
+                line-height: 27.24px;
+                text-align: left;
+            }
+            .location-img{
+                width: 30px;
+                height: 30px;
+                top: 333px;
+                margin-left: 134px;
+                float: left;
+                border:none;
+                
+            }
+            .loca{
+                width: 109px;
+                height: 19px;
+                top: 342px;
+                margin-left: 180px;
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19.36px;
+                text-align: left;
+                border:none; 
+                padding-top: 10px; 
+            }
+            .continue{
+                width: Fixed (186px)px;
+                height: Hug (40px)px;
+                margin-top: 10px;
+                margin-left: 87px;
+                padding: 8px 70px 8px 70px;
+                gap: 16px;
+                border-radius: 20px 20px 20px 20px;
+                border: 1px 1px 1px 1px;
+                opacity: 0px;
+                background: #7B61FF;
+                border: 1px solid #EA9620;
+                color:white;
+                margin-bottom: 8px;
+            }
+            .txt-lorem{
+                width: 358px;
+                height: 38px;
+                margin-top: 8px;
+                padding-left: 10px;
+                font-family: Noto Sans;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19.07px;
+                text-align: center;
+            }
+            .experience{
+                width: 389.52px;
+                height: 241px;
+                margin-top: 80px;
+                margin-left: 15px;
+                box-shadow: 0px 4px 20px 0px #00000040;
+                margin-right: 10px;
+                border: white;
+            }
+            .exp{
+                width: 138px;
+                height: 24px;
+                margin-top: 5px;
+                margin-left: 36px;
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 24.2px;
+                text-align: left;
+                border: none;
+            }
+            .add-img{
+                width: 50px;
+                height: 50px;
+                margin-top: 5px;
+                margin-left: 28px;
+                float: left;
+            }
+            .resour{
+                width: 186px;
+                height: 24px;
+                margin-top:1px;
+                margin-left: 93px;
+               font-family: Inter;
+               font-size: 20px;
+               font-weight: 700;
+               line-height: 24.2px;
+               text-align: left;
+               border: none;
+            
+            }
+            .second-exp2{
+                border:none;
+                padding-top: 30px;
+
+            }
+             .add-img2{
+                width: 50px;
+                height: 50px;
+                margin-top: 5px;
+                margin-left: 28px;
+                float: left;
+            }
+            .resour2{
+                width: 186px;
+                height: 24px;
+                margin-top:1px;
+                margin-left: 93px;
+               font-family: Inter;
+               font-size: 20px;
+               font-weight: 700;
+               line-height: 24.2px;
+               text-align: left;
+               border:none;
+            
+            }
+                   /* styling for bar of icons*/
+            .settings-bar18{
+                width: 420px;
+               height: 80px;
+               top: 1180px;
+               margin-right: 8px;
+               padding: 5px 5px 5px 5px;
+               gap: 25px;
+               border-radius: 10px 10px 10px 10px;
+               opacity: 0px;
+               background-color:none;
+               padding-top:110px;
+                }
+                /* styling for profile-icon*/
+                .profile18{
+                           width: 45px;
+                           height: 50px;
+                           float: left;
+                           border: none;
+                           padding: 10px 10px 10px 10px;
+                           border: 1px solid white;
+                           margin-right: 10px;
+                           font-family: Inter;
+                        
+                }
+                
+                .prof-con18{
+                   width: 24px;
+                   height: 24px;
+                   top: 11px;
+                   left: 16px;
+                   padding: 4px 4px 4px 4px;
+                   
+                    }
+                    .drs-prof18{
+                   font-family: Inter;
+                   font-size: 12px;
+                   font-weight: 400;
+                   line-height: 14.52px;
+                   text-align: left;
+                   width: 45px;
+                   height: 15px;
+                   top: 46px;
+                   left: 10px;
+                   color: rgba(0, 0, 0, 1);
+                    }
+                    /* styling for appointment-icon */
+                    .appoint18{
+                       width: 45px;
+                       height: 50px;
+                       float: left;
+                       border: none;
+                       padding: 10px 10px 10px 10px;
+                       border:1px solid white;
+                       margin-right: 15px;
+                        
+               }
+               
+               .appt-con18{
+               width: 24px;
+               height: 24px;
+               top: 11px;
+               left: 16px;
+               padding: 4px 4px 4px 4px;
+               
+                }
+                .aptt-prof18{
+               font-family: Inter;
+               font-size: 12px;
+               font-weight: 400;
+               line-height: 14.52px;
+               text-align: left;
+               width: 45px;
+               height: 15px;
+               top: 46px;
+               left: 10px;
+               color: rgba(0, 0, 0, 1);
+                }
+                 /* styling for prescription */
+                 .Prescription18{
+                   width: 45px;
+                   height: 50px;
+                   float: left;
+                   border: none;
+                   padding: 10px 10px 10px 10px;
+                   border:1px solid white;
+                   margin-right: 15px;
+                    
+               }
+               
+               .pres-icon18{
+               width: 24px;
+               height: 24px;
+               top: 11px;
+               left: 16px;
+               padding: 4px 4px 4px 4px;
+               
+               }
+               .pres-txt18{
+               font-family: Inter;
+               font-size: 12px;
+               font-weight: 400;
+               line-height: 14.52px;
+               text-align: left;
+               width: 45px;
+               height: 15px;
+               top: 46px;
+               left: 10px;
+               color: rgba(0, 0, 0, 1);
+               }
+               /* styling for community  */
+               .community18{
+                   width: 45px;
+                   height: 50px;
+                   float: left;
+                   border: none;
+                   padding: 10px 10px 10px 10px;
+                   border: 1px solid white;
+                   margin-right: 15px;
+                    
+               }
+               
+               .com-con18{
+               width: 24px;
+               height: 24px;
+               top: 11px;
+               left: 16px;
+               padding: 4px 4px 4px 4px;
+               
+               }
+               .com-txt18{
+               font-family: Inter;
+               font-size: 12px;
+               font-weight: 400;
+               line-height: 14.52px;
+               text-align: left;
+               width: 45px;
+               height: 15px;
+               top: 46px;
+               left: 10px;
+               color: rgba(0, 0, 0, 1);
+               }
+               /* styling for settings  */
+               .settings18{
+                   width: 45px;
+                   height: 50px;
+                   float: left;
+                   border: none;
+                   padding: 10px 10px 10px 10px;
+                   border:1px solid white;
+                   margin-right: 15px;
+               
+                    
+               }
+               
+               .set-con18{
+               width: 24px;
+               height: 24px;
+               top: 11px;
+               left: 16px;
+               padding: 4px 4px 4px 4px;
+               
+               }
+               .set-txt18{
+               font-family: Inter;
+               font-size: 12px;
+               font-weight: 400;
+               line-height: 14.52px;
+               text-align: left;
+               width: 45px;
+               height: 15px;
+               top: 46px;
+               left: 10px;
+               color: rgba(0, 0, 0, 1);
+               }
+    
+        
+            
+        
