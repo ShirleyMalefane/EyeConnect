@@ -1,0 +1,208 @@
+body{
+    background-color: black;
+}
+.review-submit-ctr{
+    width: 430px;
+    height: 932px;
+    top: 9594px;
+    left: 9509px;
+    gap: 0px;
+    border-radius: 30px 30px 30px 30px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: solid white;
+
+    
+}
+.con{
+   width: 146px;
+   height: 146px;
+   top: 309px;
+   left: 142px;
+   gap: 0px;
+   opacity: 0px;
+    
+
+}
+.check-con{
+    width: 146px;
+    height: 146px;
+    margin-left: 143px;
+    border: none;
+    margin-top:309px;
+    
+    }
+         /* styling for bar of icons*/
+         .settings-bar20{
+            width: 420px;
+           height: 80px;
+           margin-right: 8px;
+           padding: 5px 5px 5px 5px;
+           gap: 25px;
+           border-radius: 10px 10px 10px 10px;
+           opacity: 0px;
+           background-color:none;
+           padding-top:400px;
+            }
+            /* styling for profile-icon*/
+            .profile20{
+                       width: 45px;
+                       height: 50px;
+                       float: left;
+                       border: none;
+                       padding: 10px 10px 10px 10px;
+                       border: 1px solid white;
+                       margin-right: 10px;
+                       font-family: Inter;
+                    
+            }
+            
+            .prof-con20{
+               width: 24px;
+               height: 24px;
+               top: 11px;
+               left: 16px;
+               padding: 4px 4px 4px 4px;
+               
+                }
+                .drs-prof20{
+               font-family: Inter;
+               font-size: 12px;
+               font-weight: 400;
+               line-height: 14.52px;
+               text-align: left;
+               width: 45px;
+               height: 15px;
+               top: 46px;
+               left: 10px;
+               color: rgba(0, 0, 0, 1);
+                }
+                /* styling for appointment-icon */
+                .appoint20{
+                   width: 45px;
+                   height: 50px;
+                   float: left;
+                   border: none;
+                   padding: 10px 10px 10px 10px;
+                   border:1px solid white;
+                   margin-right: 15px;
+                    
+           }
+           
+           .appt-con20{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+            }
+            .aptt-prof20{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+            }
+             /* styling for prescription */
+             .Prescription20{
+               width: 45px;
+               height: 50px;
+               float: left;
+               border: none;
+               padding: 10px 10px 10px 10px;
+               border:1px solid white;
+               margin-right: 15px;
+                
+           }
+           
+           .pres-icon20{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+           }
+           .pres-txt20{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+           }
+           /* styling for community  */
+           .community20{
+               width: 45px;
+               height: 50px;
+               float: left;
+               border: none;
+               padding: 10px 10px 10px 10px;
+               border: 1px solid white;
+               margin-right: 15px;
+                
+           }
+           
+           .com-con20{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+           }
+           .com-txt20{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+           }
+           /* styling for settings  */
+           .settings20{
+               width: 45px;
+               height: 50px;
+               float: left;
+               border: none;
+               padding: 10px 10px 10px 10px;
+               border:1px solid white;
+               margin-right: 15px;
+           
+                
+           }
+           
+           .set-con20{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+           }
+           .set-txt20{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+           }
