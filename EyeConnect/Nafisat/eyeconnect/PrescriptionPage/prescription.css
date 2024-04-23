@@ -1,0 +1,187 @@
+.containers {
+    width: 100%;
+    max-width: 430px;
+    height: 100%;
+    margin: auto;
+    border-radius: 30px;
+    opacity: 1;
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  a{
+    color: initial;
+    text-decoration: none;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(190, 184, 220, 1);
+    width:100%;
+    overflow-x: hidden;
+  }
+  
+  header {
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: -70px;
+  }
+  
+  .profile-section {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+
+  .back-icon{
+    margin-right: 150px;
+    margin-top: 30px;
+
+  }
+  
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-top: 10px;
+  }
+  
+  .profile-info {
+    margin-left: 10px;
+  }
+  
+  .symptoms-section {
+    background-color: rgba(123, 97, 255, 1);
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+  }
+  
+  .search-bar {
+    position: relative;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 1px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-bar i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+
+  .gray-icon {
+    color: gray;
+  }
+  
+  
+  .button-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button-section button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .button-section button.active {
+    background-color: rgba(123, 97, 255, 1);
+    color: #ffffff;
+  }
+  
+  .view-all-section {
+    padding: 20px;
+  }
+  
+  .view-all-section h5 {
+    color: rgba(123, 97, 255, 1);
+  }
+
+  .container{
+    width: 100%;
+    max-width: 430px;
+    height: 100%;
+    border-radius: 30px;
+    opacity: 1;
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box;
+    background-color: #f4f2f2;
+    margin-bottom: 10px;
+  }
+  
+  .medication {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .medication img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    background-color: #ccc;
+  }
+
+  
+  .medication-info {
+    flex-grow: 1;
+  }
+  
+  .bar-icons {
+    /* Style your bar icons here */
+  }
+  
+  .medication i {
+    color: rgba(123, 97, 255, 1);
+  }
+  
+  .footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Adjust alignment */
+    gap: 12px; /* Add space between footer items */
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-item i {
+    font-size: 24px;
+}
+
+.footer-text {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.active {
+    color: rgba(123, 97, 255, 1); /* Change color for active item */
+}
+
+@media (max-width:500px) {
+  .footer-item{
+    transform:scale(0.7)
+  }
+  .footer{
+    flex-wrap: wrap;
+  }
+}

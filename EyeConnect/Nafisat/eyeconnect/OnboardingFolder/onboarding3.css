@@ -1,0 +1,116 @@
+body{
+    background:black;
+    width:100%;
+    overflow-x: hidden;
+
+}
+.container{
+width: 430px;
+height: 932px;
+top: 100px;
+left: 1246px;
+gap: 0px;
+border-radius: 30px 30px 30px 30px;
+opacity: 0px;
+background-color:rgba(123, 97, 255, 1);
+margin:20px auto;
+
+}
+.doctors-img1{
+    width: 398px;
+    height: 295px;
+    padding-top: 124px;
+    margin-left: 16px;
+    gap: 0px;
+    opacity: 0px;
+    border: none;
+    padding-bottom: 90px;
+    
+
+}
+.txts{
+ background-color:white;
+width: 430px;
+height: 419px;
+top: 511px;
+margin-left: -1px;
+gap: 0px;
+opacity: 0px;
+border-radius: 30px 30px 30px 30px;
+
+}
+.connect-txt{
+ width: 382px;
+height: 29px;
+top: 585px;
+margin-left: 32px;
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+text-align: left;
+padding-top: 70px;
+line-height: 29.05px
+
+}
+.txt2{
+width: 263px;
+height: 19px;
+top: 641px;
+margin-left: 80px;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.36px;
+text-align: left;
+
+}
+.three-dots{
+width: 86px;
+height: 18px;
+top: 721px;
+margin-left: 180px;
+margin-top: 68px;
+
+}
+.dot-1 , .dot-2 , .dot-3{
+    padding-right: 5px; 
+}
+.btn-1{
+    border: none;
+    height: 74px;
+    width: 382px;
+    top: 248px;
+    margin-left: 24px;
+    color: #00000033;
+    padding-top: 15px;
+}
+#started-btn{
+        width: Fixed (281px)px;
+        height: Hug (56px)px;
+        top: 788px;
+        margin-left: 74px;
+        padding: 16px 80px 16px 80px;
+        gap: 16px;
+        border-radius: 20px 20px 20px 20px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        color: white;
+        background-color: rgba(123, 97, 255, 1);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24.2px;
+        text-align: left;
+        border:1px solid rgba(234, 150, 32, 1);
+        margin-top: 35px;
+        }
+    
+@media (max-width:500px){
+    .container{
+        width:100%;
+    }
+    .skip-lnk1{
+        margin-left:300px;
+    }
+
+}

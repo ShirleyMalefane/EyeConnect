@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="otp.css">
+</head>
+<body>
+    <div class="container">
+        <div class="headings">
+        <h2>
+            <button id="back-button"><span>&lt;</span></button>
+            Reset Password
+        </h2>
+        <h3 class="confirm-text">Confirm your email and we will <br/> send the OTP</h3>
+        </div>
+        
+        <div class="email-form">
+            Email
+            <div id="user-mail">
+                <label for="Email"><img src="iconamoon_email-thin.png" alt="email-icon"></label>
+                <input type="text" id="email" name="Email" placeholder="Enter your username">
+            </div>
+        </div>
+
+        <section>
+            <div class="section">
+            <button id="confirm-button">
+            Confirm
+            </button>
+            </div>
+        </section>
+
+        <section>
+            <div class="section">
+            <button id="otp-button">
+            Send OTP
+            </button>
+            </div>
+        </section>
+
+        <section id="text">Please check your email</section>
+
+    </div>
+    <script src="./js/otp.js"></script>
+</body>
+</html>

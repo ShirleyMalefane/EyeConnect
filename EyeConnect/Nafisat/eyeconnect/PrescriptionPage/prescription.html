@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile App Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="prescription.css">
+</head>
+<body>
+    <div class="containers">
+      <!-- Section 1: Logo -->
+      <header>
+        <img src="./logo.jpg" alt="Logo" class="logo">
+      </header>
+  
+    <!-- Section 2: Profile -->
+    <div class="profile-section">
+        <i class="fas fa-chevron-left back-icon"></i>
+        <div class="profile-info">
+        <h2>Name</h2>
+        <p>Profession</p>
+        </div>
+        <img src="profile-pic.jpg" alt="" class="profile-pic">
+    </div>
+  
+  
+    <!-- Section 3: Symptoms -->
+    <h3>Symptoms</h3>
+    <section class="symptoms-section">
+        <h4>Report Symptoms</h4>
+        <div class="container">
+        <div class="search-bar">
+            <input type="text" placeholder="Examples: Blurry, itchy, cloudy">
+            <i class="fas fa-chevron-right gray-icon"></i>
+        </div>
+        </div>
+    </section>
+  
+  
+      <!-- Section 4: Buttons -->
+      <div class="button-section">
+        <button class="active"><a style="color: white;" href="./prescription.html">Active Prescription</a></button>
+        <button><a href="./history.html">Prescription History</a></button>
+      </div>
+  
+      <!-- Section 5: View All -->
+      <section class="view-all-section">
+        <h5>View All</h5>
+        <div class="container">
+          <div class="medication">
+            <img src="medication.jpg" alt="">
+            <div class="medication-info">
+              <h3>Medication Name</h3>
+              <p>Take X tablets per day</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="container">
+            <div class="medication">
+              <img src="medication.jpg" alt="">
+              <div class="medication-info">
+                <h3>Medication Name</h3>
+                <p>Take X tablets per day</p>
+              </div>
+              <i class="fas fa-plus"></i>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="medication">
+              <img src="medication.jpg" alt="">
+              <div class="medication-info">
+                <h3>Medication Name</h3>
+                <p>Take X tablets per day</p>
+              </div>
+              <i class="fas fa-plus"></i>
+            </div>
+          </div>
+      </section>
+
+      <footer class="footer">
+        <a href="../HomePage//home.html" class="footer-item">
+            <i class="fas fa-user-md"></i>
+            <div class="footer-text">Doctors</div>
+        </a>
+        <a href="../upcoming appointment page/upcomingappointment.html" class="footer-item">
+            <i class="far fa-calendar-check"></i>
+            <div class="footer-text">Appointment</div>
+        </a>
+        <a href="../PrescriptionPage/prescription.html" class="footer-item active">
+            <i class="fas fa-prescription-bottle-alt"></i>
+            <div class="footer-text">Prescription</div>
+        </a>
+        <a href="#" class="footer-item">
+            <i class="fas fa-users"></i>
+            <div class="footer-text">Community</div>
+        </a>
+        <a href="../SettingsPage/settings.html" class="footer-item" id="settings-item">
+            <i class="fas fa-cog"></i>
+            <div class="footer-text">Settings</div>
+        </a>
+    </footer>
+    
+    </div>
+  </body>
+</html>

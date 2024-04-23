@@ -1,0 +1,178 @@
+body{
+    background-color: black;
+}
+.container-2{
+width: 430px;
+height: 932px;
+top: 165px;
+left: 558px;
+gap: 0px;
+border-radius: 30px 30px 30px 30px;
+font: inter;
+border: transparent;
+background-color: rgba(255, 255, 255, 1);
+margin:20px auto;
+;
+}
+.checked-icon{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 184.44px;
+}
+.email-veri{
+color: rgba(9, 15, 71, 1);
+ text-align: center;
+ font-size:24px ;
+font: inter;
+font-weight: 600;
+padding-top: 75px;
+}
+.congrts{
+    border: none;
+    Width :275.15px;
+    height:78.95px;
+    margin-left:78.19px;
+    color: rgba(9, 15, 71, 0.45);
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    top: 450px;
+
+}
+.password-form2{
+    border:none;
+    height: 74px;
+    width: 382px;
+    top: 248px;
+    margin-left: 24px;
+    color: #00000033;
+    margin-top: 30px;
+
+}
+#enter-pass2, #enter-pass{
+    border:1px solid rgba(234, 150, 32, 1);
+    width:379px;
+    height:40px;
+    padding: 10px 0px 0px 0px;
+    gap: 1px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    display:flex;
+    background: rgba(217, 217, 217, 1);
+
+}
+.pass-btn{
+border: none;
+width: 114px;
+height: 15px;
+font-weight: 500;
+font-size: 12px;
+color: #746F6F;
+padding-top: 8px;
+background: rgba(217, 217, 217, 1);
+}
+.eye-icon{
+    border: none;
+    padding-left: 180px;
+    width: 24px;
+    height: 24px;
+
+}
+.login-form2{
+    border: none;
+    height: 74px;
+    width: 382px;
+    top: 248px;
+    margin-left:px;
+    color: #00000033;
+    padding-top: 15px;
+}
+#comfirm-pass{
+border: 1px solid rgba(234, 150, 32, 1);
+width:382px;
+height:48px;
+padding: 10px 0px 0px 0px;
+gap:10px;
+border-radius: 8px 8px 8px 8px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+color: #FFFFFF;
+font-weight: 600;
+font-size: 20px;
+background-color: #7B61FF;
+margin-top: 45px;
+}
+/* additional css */
+#login-button {
+  width: 350px;
+  height: 35px;
+}
+input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 500px) {
+
+    .container-2{
+        width:100%;
+        margin:0;
+    }
+  body{
+    width:100vw;
+    overflow-x: hidden;
+  }
+ 
+  .email-form,
+  .password-form {
+    margin-left: 35px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  #user-mail,
+  #enter-pass {
+    width: 300px;
+  }
+  .eye-icon {
+    padding-left: 100px;
+  }
+  #login-button {
+    width: 80vw;
+    
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  #forgot {
+    position: relative;
+    left: -20px;
+    text-decoration: none;
+  }
+  #otp-button, #confirm-button{
+    width:250px;
+    position:relative;
+    left:30px;
+  }
+   .confirm-text{
+    font-size:18px;
+  }
+  .password-form2{
+    width:300px;
+  }
+  #enter-pass,#enter-pass2{
+    width:300px;
+  }
+  #comfirm-pass{
+    width:300px;
+  }
+}
+
+
+
+
+
