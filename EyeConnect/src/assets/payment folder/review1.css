@@ -1,0 +1,522 @@
+body{
+    background-color: black;
+}
+.container-review1{
+    width: 430px;
+   height: 920px;
+   gap: 0px;
+   border-radius: 30px 30px 30px 30px;
+   opacity: 0px;
+   background: #FFFFFF;
+   border: solid white;
+   }
+   .top-icons2{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+.less-arrow2{
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+    border:none;
+    
+    
+}
+.review-txt2{
+    width: 99px;
+    height: 29px;
+    margin-top: 1px;
+    margin-left: 30px;
+    color: #7B61FF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    border: solid white;
+       
+}
+.i-arrow2{
+    width: 40px;
+    height: 40px;
+    margin-top: 0px;
+    margin-left: 70px;
+    
+}
+.blue-line2{
+    width: 386px;
+    height: 0px;
+    margin-top: 15px;
+    margin-left: 2px;
+    gap: 0px;
+    border: 1px 1px 1px 1px;
+    opacity: 0px;
+    border: 1px solid #B8B8B8
+}
+.review-box1{
+    border:none;
+}
+.rating-number{
+    width: 57px;
+    height: 44px;
+    margin-top: 3px;
+    margin-left: 186px;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    text-align: center;
+    border: none;
+    
+}
+.stars{
+    display: inline;
+    padding-left: 135px;
+    border:none; 
+}
+.based-on-review{
+    width: 206px;
+    height: 24px;
+    margin-top: 3px;
+    margin-left: 130px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: left;
+    color: #7B61FF;
+}
+.review-ratings{
+    width: 409px;
+    height: 142px;
+    margin-top: 2px;
+    margin-left: 10px;
+    gap: 13px;
+    border: none;
+    margin-top: 13px;
+    
+}
+.excellent-rating{
+    width: 73px;
+    height: 18px;
+    margin-top: 20px; 
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: left;
+    border: none;
+    display: inline
+}
+  
+.green-rating{
+    margin-left:60px;
+    
+}
+.good-rating{
+    width: 73px;
+    height: 18px;
+    margin-top: 20px; 
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: left;
+    border: none;
+    display: inline
+}
+  
+.lightgreen-rating{
+    margin-left: 90px;
+    
+}
+.good{
+    margin-top: 13px;
+}
+.average-rating{
+    width: 73px;
+    height: 18px;
+    margin-top: 20px; 
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: left;
+    border: none;
+    display: inline
+}
+  
+.lightgold-rating{
+    margin-left: 75px;
+    
+}
+.average{
+    margin-top: 13px;
+}
+.below-average-rating{
+    width: 73px;
+    height: 18px;
+    margin-top: 20px; 
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: left;
+    border: none;
+    display: inline
+}
+  
+.lightpink-ratings{
+    
+    margin-left: 30px;
+    
+    
+}
+.below-average{
+    margin-top: 14px;
+}
+.poor-rating{
+    width: 73px;
+    height: 18px;
+    margin-top: 20px; 
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: left;
+    border: none;
+    display: inline
+}
+  
+.red-rating{
+    
+    margin-left: 60px;
+    
+    
+}
+.poor{
+    margin-top: 14px;
+}
+.review-prof{
+    border:none;
+    margin-top: 25px;
+    
+
+}
+.profile-dp{
+    width: 50px;
+    height: 50px;
+    top: 429px;
+    margin-left: 20px;
+    float: left;
+}
+.prof-name{
+    width: 94px;
+    height: 20px;
+    top: 435px;
+    margin-left: 15px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: -0.02em;
+    text-align: justified;
+    display: inline;
+}
+.mins{
+    width: 72px;
+    height: 20px;
+    top: 435px;
+    margin-left: 130px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: -0.02em;
+    text-align: justified;
+    display: inline;
+}
+.rate-prof1{
+    margin-top: 4px;
+    margin-right: 1px;
+    gap: 0px;
+    border-radius: 8.62px 0px 0px 0px;
+    opacity: 0px;
+    
+}
+.rate-me{
+    border: none;
+}
+.lorem-txt{
+    width: 350px;
+    height: 80px;
+    top: 1px;
+    margin-left: 20px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: -0.02em;
+    text-align: justified;
+    
+}
+
+         /* styling for secong prof review bar*/
+
+.review-prof2{
+    border:none;
+    margin-top: 25px;
+    
+
+}
+.profile-dp2{
+    width: 50px;
+    height: 50px;
+    top: 429px;
+    margin-left: 20px;
+    float: left;
+}
+.prof-name2{
+    width: 94px;
+    height: 20px;
+    top: 435px;
+    margin-left: 15px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: -0.02em;
+    text-align: justified;
+    display: inline;
+}
+.mins2{
+    width: 72px;
+    height: 20px;
+    top: 435px;
+    margin-left: 130px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: -0.02em;
+    text-align: justified;
+    display: inline;
+}
+
+.rate-prof2{
+    margin-top: 4px;
+    margin-right: 1px;
+    gap: 0px;
+    border-radius: 8.62px 0px 0px 0px;
+    opacity: 0px;
+    
+}
+.rate-me2{
+    border: none;
+}
+.lorem-txt2{
+    width: 350px;
+    height: 80px;
+    top: 1px;
+    margin-left: 20px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: -0.02em;
+    text-align: justified;
+    
+}
+    
+.write-review{
+    width: 291px;
+    height: 45.98px;
+    margin-top:30px;
+    margin-left: 69px;
+    background-color: #7B61FF;
+    border-radius: 114px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    }
+
+         /* styling for bar of icons*/
+         .settings-bar24{
+            width: 420px;
+           height: 80px;
+           margin-right: 8px;
+           padding: 5px 5px 5px 5px;
+           gap: 25px;
+           border-radius: 10px 10px 10px 10px;
+           opacity: 0px;
+           background-color:none;
+           padding-top:60px;
+            }
+            /* styling for profile-icon*/
+            .profile24{
+                       width: 45px;
+                       height: 50px;
+                       float: left;
+                       border: none;
+                       padding: 10px 10px 10px 10px;
+                       border: 1px solid white;
+                       margin-right: 10px;
+                       font-family: Inter;
+                    
+            }
+            
+            .prof-con24{
+               width: 24px;
+               height: 24px;
+               top: 11px;
+               left: 16px;
+               padding: 4px 4px 4px 4px;
+               
+                }
+                .drs-prof24{
+               font-family: Inter;
+               font-size: 12px;
+               font-weight: 400;
+               line-height: 14.52px;
+               text-align: left;
+               width: 45px;
+               height: 15px;
+               top: 46px;
+               left: 10px;
+               color: rgba(0, 0, 0, 1);
+                }
+                /* styling for appointment-icon */
+                .appoint24{
+                   width: 45px;
+                   height: 50px;
+                   float: left;
+                   border: none;
+                   padding: 10px 10px 10px 10px;
+                   border:1px solid white;
+                   margin-right: 15px;
+                    
+           }
+           
+           .appt-con24{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+            }
+            .aptt-prof24{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+            }
+             /* styling for prescription */
+             .Prescription24{
+               width: 45px;
+               height: 50px;
+               float: left;
+               border: none;
+               padding: 10px 10px 10px 10px;
+               border:1px solid white;
+               margin-right: 15px;
+                
+           }
+           
+           .pres-icon24{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+           }
+           .pres-txt24{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+           }
+           /* styling for community  */
+           .community24{
+               width: 45px;
+               height: 50px;
+               float: left;
+               border: none;
+               padding: 10px 10px 10px 10px;
+               border: 1px solid white;
+               margin-right: 15px;
+                
+           }
+           
+           .com-con24{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+           }
+           .com-txt24{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+           }
+           /* styling for settings  */
+           .settings24{
+               width: 45px;
+               height: 50px;
+               float: left;
+               border: none;
+               padding: 10px 10px 10px 10px;
+               border:1px solid white;
+               margin-right: 15px;
+           
+                
+           }
+           
+           .set-con24{
+           width: 24px;
+           height: 24px;
+           top: 11px;
+           left: 16px;
+           padding: 4px 4px 4px 4px;
+           
+           }
+           .set-txt24{
+           font-family: Inter;
+           font-size: 12px;
+           font-weight: 400;
+           line-height: 14.52px;
+           text-align: left;
+           width: 45px;
+           height: 15px;
+           top: 46px;
+           left: 10px;
+           color: rgba(0, 0, 0, 1);
+           }
+    
