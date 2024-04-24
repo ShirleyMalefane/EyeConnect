@@ -70,24 +70,29 @@ a{
     background-color: rgba(190, 184, 220, 1);
     padding: 20px;
     display: flex;
-    justify-content: space-between; /* Adjust alignment */
-    gap: 10px; /* Add space between footer items */
-  }
-  
-  .footer-item {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .footer-item i {
-    font-size: 24px;
-  }
-  
-  .footer-text {
+    color: black;
+    text-decoration: none;
+    flex-grow: 1; /* Let each item grow to fill available space */
+}
+
+.footer-item i {
+    font-size: 10px;
+}
+
+.footer-text {
     margin-top: 5px;
-    font-size: 14px;
-  }
+    font-size: 10px;
+    text-decoration: none;
+}
+
 
 .active {
     color: rgba(123, 97, 255, 1); /* Change color for active item */
