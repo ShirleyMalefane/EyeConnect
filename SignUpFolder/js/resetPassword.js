@@ -1,16 +1,3 @@
-// Add the screen size restriction code here
-window.onload = function() {
-  var screenWidth = window.innerWidth;
-  if (screenWidth > 768) {
-      var errorMessage = document.createElement('div');
-      errorMessage.innerHTML = "<p>Sorry, this content is only available on small screens like Android and iOS devices (iPhone).</p>";
-      errorMessage.style.color = "red";
-      errorMessage.style.textAlign = "center";
-      document.body.appendChild(errorMessage);
-      return; // Stop further execution of the script on larger screens
-  }
-};
-
 const apiEntry = "https://eyeconnect-api.onrender.com";
 const passwordInp = document.getElementById("password");
 const rePasswordInp = document.getElementById("repeat-password");
