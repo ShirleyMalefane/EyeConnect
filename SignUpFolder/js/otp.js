@@ -1,3 +1,12 @@
+// Get the back button element
+const backButton = document.getElementById("back-button");
+
+// Add event listener to the back button
+backButton.addEventListener("click", function() {
+    // Navigate back in the browser's history
+    window.history.back();
+});
+
 const apiEntry = "https://eyeconnect-api.onrender.com";
 const emailInp = document.getElementById("email");
 const otpBtn= document.getElementById("otp-button")

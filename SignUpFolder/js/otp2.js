@@ -1,3 +1,12 @@
+// Get the back button element
+const backButton = document.getElementById("back-button");
+
+// Add event listener to the back button
+backButton.addEventListener("click", function() {
+    // Navigate back in the browser's history
+    window.history.back();
+});
+
 const counter=document.getElementById("counter")
 const resendBtn=document.getElementById("resend-button")
 const emailPlaceholder=document.getElementById("email-placeholder")

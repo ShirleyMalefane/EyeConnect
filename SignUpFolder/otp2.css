@@ -3,22 +3,44 @@ body {
 }
 
 .container {
-    width: 430px;
-    height: 932px;
-    top: 165px;
-    left: 558px;
-    gap: 0px;
-    border-radius: 30px;
-    font-family: 'inter', sans-serif; /* Added fallback font */
-    background-color: rgba(190, 184, 220, 1);
+  width: 430px;
+  height: 932px;
+  top: 165px;
+  left: 558px;
+  gap: 0px;
+  border-radius: 30px;
+  font-family: 'inter', sans-serif; /* Added fallback font */
+  background-color: rgba(190, 184, 220, 1);
+  margin: -15px auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+#back-button {
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px; /* Add some margin between the button and the heading */
+}
+
+#back-button i {
+  color: grey;
 }
 
 h2 {
-    height: 29px;
-    width: 244px;
-    text-align: center;
-    margin-bottom: 70px;
-    padding-top: 70px;
+  margin: 0; /* Reset margin */
+  font-size: 24px; /* Adjust font size as needed */
+  display: flex; /* Add display flex */
+  align-items: center; /* Vertically align items */
 }
 
 h3 {
@@ -34,23 +56,6 @@ p{
     top: 193px;
 }
 
-#back-button {
-    background-color: white;
-    border: none;
-    border-radius: 50%;
-    padding: 5px;
-    width: 40px; /* Set width and height to create a circular button */
-    height: 40px; /* Set width and height to create a circular button */
-    margin-right: 30px; /* Adjust the margin to add space */
-    display: inline-flex; /* Change display to inline-flex */
-    align-items: center;
-}
-
-
-#back-button span {
-    font-size: 40px;
-    color: grey;
-}
 
 .button-container {
     display: flex;
@@ -98,7 +103,7 @@ p{
     height: 40px;
     padding: 10px;
     gap: 10px;
-    margin-top: 150px;
+    margin-top: 120px;
     border-radius: 8px;
     font-weight: 600;
     font-size: 20px;
