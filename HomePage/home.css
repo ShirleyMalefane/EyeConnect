@@ -288,3 +288,13 @@ a{
     width:100%;
   }
 }
+
+.small-screen-content {
+  display: none; /* Hide content by default */
+}
+
+.error-message {
+  display: block; /* Show error message by default */
+}
+
+
