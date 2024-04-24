@@ -35,7 +35,7 @@ const register = () => {
         if(data.success){
             alert("Successful")
             localStorage.setItem("eyeconnect_token", data.result.token)
-            window.location.assign("../homepage/home.html")
+            window.location.assign("../HomePage/home.html")
         }
         else{
             alert("Operation failed, try with a different username or email")
