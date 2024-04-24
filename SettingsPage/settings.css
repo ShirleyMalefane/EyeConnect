@@ -67,26 +67,27 @@ a{
 }
 
 .footer {
+    background-color: rgba(190, 184, 220, 1);
     padding: 20px;
     display: flex;
     justify-content: space-between; /* Adjust alignment */
-    gap: 12px; /* Add space between footer items */
-}
-
-.footer-item {
+    gap: 10px; /* Add space between footer items */
+  }
+  
+  .footer-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.footer-item i {
+  }
+  
+  .footer-item i {
     font-size: 24px;
-}
-
-.footer-text {
+  }
+  
+  .footer-text {
     margin-top: 5px;
     font-size: 14px;
-}
+  }
 
 .active {
     color: rgba(123, 97, 255, 1); /* Change color for active item */

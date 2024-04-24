@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage2</title>
     <link rel="stylesheet" href="upcomingappointment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     
@@ -129,28 +130,28 @@
                 <button class="cancel-btn3">Cancel Apointment</button>
             </div>    
         </div> 
-        <div class="settings-bar">
-            <div class="profile">
-                <img class="prof-con" src="profilecoon.jpg" alt="profile-icon">
-                <p class="drs-prof">Doctors</p>
-            </div>
-                <div class="appoint">
-                    <img class="appt-con" src="appoinmentcon.jpg" alt="appoinmentcon">
-                    <p class="aptt-prof">Appointment</p>
-                </div>
-                    <div class="Prescription">
-                        <img class="pres-icon" src="prescrip.jpg" alt="Prescriptioncon">
-                        <p class="pres-txt">Prescription</p>
-                    </div>
-                    <div class="community">
-                        <img class="com-con" src="community.jpg" alt="profile-icon">
-                        <p class="com-txt">Community</p>
-                    </div>
-                    <div class="settings">
-                        <img class="set-con" src="settings.jpg" alt="profile-icon">
-                        <p class="set-txt">Settings</p>
-                    </div>
-        </div>
+        <footer class="footer">
+            <a href="../HomePage/home.html" class="footer-item">
+                <i class="fas fa-user-md"></i>
+                <div class="footer-text">Doctors</div>
+            </a>
+            <a href="./upcomingappointment.html" class="footer-item active">
+                <i class="far fa-calendar-check"></i>
+                <div class="footer-text">Appointment</div>
+            </a>
+            <a href="../PrescriptionPage/prescription.html" class="footer-item">
+                <i class="fas fa-prescription-bottle-alt"></i>
+                <div class="footer-text">Prescription</div>
+            </a>
+            <a href="#" class="footer-item">
+                <i class="fas fa-users"></i>
+                <div class="footer-text">Community</div>
+            </a>
+            <a href="../SettingsPage/settings.html" class="footer-item" id="settings-item">
+                <i class="fas fa-cog"></i>
+                <div class="footer-text">Settings</div>
+            </a>
+        </footer>
     </div>
 </body>
 </html>
