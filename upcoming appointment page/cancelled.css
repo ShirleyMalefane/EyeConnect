@@ -12,7 +12,7 @@ body{
    border-radius: 30px 30px 30px 30px;
    opacity: 0px;
    background: rgba(190, 184, 220, 1);
-   margin:20px auto
+   margin:-15px auto
    }
    a{
     text-decoration: none;
@@ -29,29 +29,32 @@ body{
        border-radius: 20px 0px 0px 0px;
        opacity: 0px;
        padding-top: 30px;
+       margin-left: 30px;
         
    }
-   .apt-bar7{
-   width: 370px;
-   height: 26.81px;
-   top: 96px;
-   left: 16px;
-   border: none;
-   font-family: Inter;
-   font-size: 20px;
-   font-weight: 700;
-   line-height: 24.2px;
-   text-align: left;
-   color: rgba(0, 0, 0, 1);
-   }
-   .icon-search7{
-   float: inline-end;
-   width: 24px;
-   height: 25.04px;
-   top: 1.77px;
-   left: 342px;
-   padding: 3.93px 3.81px 4.01px 3.81px;
-   }
+   .apt-bar {
+    width: 370px;
+    height: 26.81px;
+    top: 6px;
+    left: 36px;
+    border: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    position: relative; /* Added position relative for absolute positioning of the icon */
+}
+
+.icon-search {
+    position: absolute; /* Positioned absolutely relative to its parent */
+    top: 50%; /* Adjusted top position for vertical centering */
+    right: 0; /* Positioned to the right within its parent */
+    transform: translateY(-50%); /* Center the icon vertically */
+    font-size: 20px; /* Adjusted font size to match the text */
+}
+
    .frame7{
    width: 398px;
    height: 62px;
@@ -73,6 +76,7 @@ body{
    gap: 11px;
    border: none;
    margin:0 auto;
+   margin-left: 10px;
    
    }
    .Upcoming7{
