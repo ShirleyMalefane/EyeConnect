@@ -119,18 +119,20 @@ margin-top: 30px;
     line-height: 24.2px;
     text-align: left;
     border:1px solid rgba(234, 150, 32, 1);
-    margin-top: 35px;
+    margin-top: 20px;
     }
     .skip-lnk1{
 width: 52px;
 height: 29px;
 margin-top:40px;
-margin-left: 329px;
+margin-left: 350px;
 font-family: Inter;
 font-size: 24px;
 font-weight: 700;
 line-height: 29.05px;
 text-align: left;
+color: black;
+text-decoration: none;
 
 
   }
