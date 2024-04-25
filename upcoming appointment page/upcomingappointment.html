@@ -6,6 +6,27 @@
     <title>Homepage2</title>
     <link rel="stylesheet" href="upcomingappointment.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<style>
+    .appointments{
+        display:  flex;
+        align-items:center;
+        flex-direction:column;
+    }
+    #loading,#no-appointments{
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        font-size: 18px;
+        font-weight:600;
+        color:rgb(0,0,0,0.5);
+    }
+    #no-appointments{
+        display:none;
+    }
+    
+</style>
+
 </head>
 <body>
     
@@ -21,6 +42,13 @@
             </div>
         </div>
     <!-- appointment section for doc -->
+    <!-- new class created for appointments -->
+    
+    
+    <!-- appointments container starts here -->
+    
+    <div class="appointments">
+<!-- 
         <div class="Appointment-1">
             <div class="vid-icon" >
                 <img src="majesticons_video-line.jpg" alt="">
@@ -55,10 +83,10 @@
                 <button class="Reschedule-btn">Reschedule</button>
                 <button class="cancel-btn">Cancel Apointment</button>
             </div>    
-        </div> 
+        </div>  -->
         
-    <!-- second appointment section for another doc -->
-        <div class="Appointment-2">
+        <!-- second appointment section for another doc -->
+        <!-- <div class="Appointment-2">
             <div class="vid-icon2" >
                 <img src="majesticons_video-line.jpg" alt="">
             </div>
@@ -92,10 +120,10 @@
                 <button class="Reschedule-btn2">Reschedule</button>
                 <button class="cancel-btn2">Cancel Apointment</button>
             </div>    
-        </div> 
+        </div>  -->
         
-    <!-- third Appointment  section for doc-->
-        <div class="Appointment-3">
+        <!-- third Appointment  section for doc-->
+        <!-- <div class="Appointment-3">
             <div class="phone1" >
                 <img src="phoneicon.jpg" alt="">
             </div>
@@ -129,7 +157,13 @@
                 <button class="Reschedule-btn3">Reschedule</button>
                 <button class="cancel-btn3">Cancel Apointment</button>
             </div>    
-        </div> 
+        </div>  -->
+    
+    <div class="Appointment-1" id="loading">Loading</div>
+    <div class="Appointment-1" id="no-appointments">You haven't scheduled any appointments yet</div>
+    </div>
+
+    <!-- appointments section ends here -->
         <footer class="footer">
             <a href="../HomePage/home.html" class="footer-item">
                 <i class="fas fa-user-md"></i>
@@ -153,6 +187,6 @@
             </a>
         </footer>
     </div>
-    <script type="text/javascript" src="./js/appointments.js"></script>
+    <script src="./js/appointments.js"></script>
 </body>
 </html>
