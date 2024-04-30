@@ -56,26 +56,20 @@
 
 <script>
   window.onload = function() {
-    // Check if the device width is less than or equal to 600 pixels (typical mobile device width)
-    if (window.innerWidth <= 600) {
-      setTimeout(function() {
-        document.getElementById('page1').style.display = 'none';
-        document.getElementById('page2').style.display = 'flex';
-      }, 2000);
+    setTimeout(function() {
+      document.getElementById('page1').style.display = 'none';
+      document.getElementById('page2').style.display = 'flex';
+    }, 2000);
 
-      setTimeout(function() {
-        document.getElementById('page2').style.display = 'none';
-        document.getElementById('page3').style.display = 'flex';
-      }, 4000);
+    setTimeout(function() {
+      document.getElementById('page2').style.display = 'none';
+      document.getElementById('page3').style.display = 'flex';
+    }, 4000);
 
-      setTimeout(function() {
-        // Redirect to first onboarding page or any other action
-        window.location.href = 'OnboardingFolder/onboarding1.html';
-      }, 6000);
-    } else {
-      // Redirect to a page indicating that the app is only accessible on mobile devices
-      window.location.href = 'not_supported.html';
-    }
+    setTimeout(function() {
+      // Redirect to first onboarding page or any other action
+      window.location.href = 'OnboardingFolder/onboarding1.html';
+    }, 6000);
   };
 </script>
 </body>
